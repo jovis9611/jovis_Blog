@@ -9,8 +9,28 @@
     <atom:link href="/jovis_Blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>You can Be Better than Yesterday</description>
-    <pubDate>Sun, 21 Jun 2020 13:29:25 GMT</pubDate>
+    <pubDate>Fri, 26 Jun 2020 06:28:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Extensions of Hexo-Next</title>
+      <link>https://jovis9611.github.io/jovis_Blog/2020/06/26/Embedded-Codepen-and-JsFiddle-in-Hexo/</link>
+      <guid>https://jovis9611.github.io/jovis_Blog/2020/06/26/Embedded-Codepen-and-JsFiddle-in-Hexo/</guid>
+      <pubDate>Fri, 26 Jun 2020 06:20:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;h1 id=&quot;Embedded-element-in-Hexo-post&quot;&gt;&lt;a href=&quot;#Embedded-element-in-Hexo-post&quot; class=&quot;headerlink&quot; title=&quot;Embedded element in Hexo post&quot;&gt;&lt;/a
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<h1 id="Embedded-element-in-Hexo-post"><a href="#Embedded-element-in-Hexo-post" class="headerlink" title="Embedded element in Hexo post"></a>Embedded element in Hexo post</h1><h2 id="Embedded-Codepen-and-Jsfiddle"><a href="#Embedded-Codepen-and-Jsfiddle" class="headerlink" title="Embedded Codepen and Jsfiddle"></a>Embedded Codepen and Jsfiddle</h2><h3 id="Codepen"><a href="#Codepen" class="headerlink" title="Codepen"></a>Codepen</h3><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>. npm install hexo-codepen --save</span><br><span class="line"><span class="number">2</span>. Apply method: &#123;% codepen userId|anonymous|anon slugHash theme [defaultTab [height [width]]] %&#125;</span><br><span class="line">Eg : &#123;% codepen CiTA bgjKKE dark [css,result [<span class="number">265</span>]] %&#125;</span><br></pre></td></tr></table></figure><iframe id="cp_embed_bgjKKE" src="//codepen.io/CiTA/embed/bgjKKE?height=[265]]&theme-id=dark&slug-hash=bgjKKE&default-tab=[css,result" scrolling="no" frameborder="no" height="[265]]" allowTransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe><h3 id="JSfiddle"><a href="#JSfiddle" class="headerlink" title="JSfiddle"></a>JSfiddle</h3><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>.No need install extension.</span><br><span class="line"><span class="number">2</span>.&#123;% jsfiddle shorttag [tabs] [skin] [width] [height] %&#125;</span><br><span class="line"><span class="function">Eg: &#123;% <span class="title">jsfiddle</span> <span class="title">AntBody</span>/138<span class="title">zf8kk</span> <span class="title">js</span>,<span class="title">html</span>,<span class="title">css</span>,<span class="title">result</span> <span class="title">light</span> %&#125;</span></span><br></pre></td></tr></table></figure><iframe scrolling="no" width="100%" height="300" src="https://jsfiddle.net/AntBody/138zf8kk/embedded/js,html,css,result/light" frameborder="0" loading="lazy" allowfullscreen></iframe>]]></content:encoded>
+      
+      <comments>https://jovis9611.github.io/jovis_Blog/2020/06/26/Embedded-Codepen-and-JsFiddle-in-Hexo/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Video Tut_ Project Ecommerce using Django Part 1</title>

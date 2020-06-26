@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Extensions of Hexo-Next</title>
+    <url>/jovis_Blog/2020/06/26/Embedded-Codepen-and-JsFiddle-in-Hexo/</url>
+    <content><![CDATA[<h1 id="Embedded-element-in-Hexo-post"><a href="#Embedded-element-in-Hexo-post" class="headerlink" title="Embedded element in Hexo post"></a>Embedded element in Hexo post</h1><h2 id="Embedded-Codepen-and-Jsfiddle"><a href="#Embedded-Codepen-and-Jsfiddle" class="headerlink" title="Embedded Codepen and Jsfiddle"></a>Embedded Codepen and Jsfiddle</h2><h3 id="Codepen"><a href="#Codepen" class="headerlink" title="Codepen"></a>Codepen</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="number">1</span>. npm install hexo-codepen --save</span><br><span class="line"><span class="number">2</span>. Apply method: &#123;% codepen userId|anonymous|anon slugHash theme [defaultTab [height [width]]] %&#125;</span><br><span class="line">Eg : &#123;% codepen CiTA bgjKKE dark [css,result [<span class="number">265</span>]] %&#125;</span><br></pre></td></tr></table></figure>
+<iframe id="cp_embed_bgjKKE" src="//codepen.io/CiTA/embed/bgjKKE?height=[265]]&theme-id=dark&slug-hash=bgjKKE&default-tab=[css,result" scrolling="no" frameborder="no" height="[265]]" allowTransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe>
+<h3 id="JSfiddle"><a href="#JSfiddle" class="headerlink" title="JSfiddle"></a>JSfiddle</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="number">1</span>.No need install extension.</span><br><span class="line"><span class="number">2</span>.&#123;% jsfiddle shorttag [tabs] [skin] [width] [height] %&#125;</span><br><span class="line"><span class="function">Eg: &#123;% <span class="title">jsfiddle</span> <span class="title">AntBody</span>/138<span class="title">zf8kk</span> <span class="title">js</span>,<span class="title">html</span>,<span class="title">css</span>,<span class="title">result</span> <span class="title">light</span> %&#125;</span></span><br></pre></td></tr></table></figure>
+<iframe scrolling="no" width="100%" height="300" src="https://jsfiddle.net/AntBody/138zf8kk/embedded/js,html,css,result/light" frameborder="0" loading="lazy" allowfullscreen></iframe>
+]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>hexo-next</tag>
+        <tag>enhancement</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Video Tut_ Project Ecommerce using Django Part 1</title>
     <url>/jovis_Blog/2020/06/12/2020/v_tut_DEcommerce/</url>
     <content><![CDATA[<p>Video Tutorial Link :<a href="https://www.youtube.com/watch?v=z4USlooVXG0" target="_blank" rel="noopener">Youtube Link</a></p>
