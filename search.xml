@@ -3,17 +3,56 @@
   <entry>
     <title>Extensions of Hexo-Next</title>
     <url>/jovis_Blog/2020/06/26/Embedded-Codepen-and-JsFiddle-in-Hexo/</url>
-    <content><![CDATA[<h1 id="Embedded-element-in-Hexo-post"><a href="#Embedded-element-in-Hexo-post" class="headerlink" title="Embedded element in Hexo post"></a>Embedded element in Hexo post</h1><h2 id="Embedded-Codepen-and-Jsfiddle"><a href="#Embedded-Codepen-and-Jsfiddle" class="headerlink" title="Embedded Codepen and Jsfiddle"></a>Embedded Codepen and Jsfiddle</h2><h3 id="Codepen"><a href="#Codepen" class="headerlink" title="Codepen"></a>Codepen</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="number">1</span>. npm install hexo-codepen --save</span><br><span class="line"><span class="number">2</span>. Apply method: &#123;% codepen userId|anonymous|anon slugHash theme [defaultTab [height [width]]] %&#125;</span><br><span class="line">Eg : &#123;% codepen CiTA bgjKKE dark [css,result [<span class="number">265</span>]] %&#125;</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h1 id="Embedded-element-in-Hexo-post"><a href="#Embedded-element-in-Hexo-post" class="headerlink" title="Embedded element in Hexo post"></a>Embedded element in Hexo post</h1><h3 id="Embedded-Codepen-and-Jsfiddle"><a href="#Embedded-Codepen-and-Jsfiddle" class="headerlink" title="Embedded Codepen and Jsfiddle"></a>Embedded Codepen and Jsfiddle</h3><h4 id="Codepen"><a href="#Codepen" class="headerlink" title="Codepen"></a>Codepen</h4><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="number">1</span>. npm install hexo-codepen --save</span><br><span class="line"><span class="number">2</span>. Apply method: &#123;% codepen userId|anonymous|anon slugHash theme [defaultTab [height [width]]] %&#125;</span><br><span class="line">Eg : &#123;% codepen CiTA bgjKKE dark [css,result [<span class="number">265</span>]] %&#125;</span><br></pre></td></tr></table></figure>
+
 <iframe id="cp_embed_bgjKKE" src="//codepen.io/CiTA/embed/bgjKKE?height=[265]]&theme-id=dark&slug-hash=bgjKKE&default-tab=[css,result" scrolling="no" frameborder="no" height="[265]]" allowTransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe>
-<h3 id="JSfiddle"><a href="#JSfiddle" class="headerlink" title="JSfiddle"></a>JSfiddle</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="number">1</span>.No need install extension.</span><br><span class="line"><span class="number">2</span>.&#123;% jsfiddle shorttag [tabs] [skin] [width] [height] %&#125;</span><br><span class="line"><span class="function">Eg: &#123;% <span class="title">jsfiddle</span> <span class="title">AntBody</span>/138<span class="title">zf8kk</span> <span class="title">js</span>,<span class="title">html</span>,<span class="title">css</span>,<span class="title">result</span> <span class="title">light</span> %&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="JSfiddle"><a href="#JSfiddle" class="headerlink" title="JSfiddle"></a>JSfiddle</h4><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="number">1</span>.No need install extension.</span><br><span class="line"><span class="number">2</span>.&#123;% jsfiddle shorttag [tabs] [skin] [width] [height] %&#125;</span><br><span class="line"><span class="function">Eg: &#123;% <span class="title">jsfiddle</span> <span class="title">AntBody</span>/138<span class="title">zf8kk</span> <span class="title">js</span>,<span class="title">html</span>,<span class="title">css</span>,<span class="title">result</span> <span class="title">light</span> %&#125;</span></span><br></pre></td></tr></table></figure>
+
 <iframe scrolling="no" width="100%" height="300" src="https://jsfiddle.net/AntBody/138zf8kk/embedded/js,html,css,result/light" frameborder="0" loading="lazy" allowfullscreen></iframe>
+
+<h3 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="number">1</span>.npm install hexo-asset-image --save</span><br><span class="line"><span class="number">2</span>. Make a new folder named 'img' under hexo\source.</span><br><span class="line"><span class="number">2</span>.![header]( img/header.jpg)</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Enhancement</category>
+      </categories>
+      <tags>
+        <tag>hexo-next</tag>
+        <tag>Web</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Interesting Enhancement Link</title>
+    <url>/jovis_Blog/2020/06/26/Interesting-Enhancement-Tool/</url>
+    <content><![CDATA[<h1 id="Cmd-Enhancement"><a href="#Cmd-Enhancement" class="headerlink" title="Cmd Enhancement"></a>Cmd Enhancement</h1><p><a href="https://www.notion.so/jovisworkspace/Web-Page-Design-Front-End-1b6780d1d8574a6499b5247231e4917c#cfb7f0b99b0a4e9e88ca43b6e2033141" target="_blank" rel="noopener">zsh</a></p>
+<p><a href="https://www.notion.so/jovisworkspace/Web-Page-Design-Front-End-1b6780d1d8574a6499b5247231e4917c#6563afc8a918454b98bad1352f27c2ae" target="_blank" rel="noopener">How do personalize Window Cmd Prompt</a></p>
+<p><a href="https://www.notion.so/jovisworkspace/Web-Page-Design-Front-End-1b6780d1d8574a6499b5247231e4917c#a12c1757358746d095e75ff6f9a7e700" target="_blank" rel="noopener">How I can make the Window Cmd Prompt Better</a></p>
+<h1 id="Arduino"><a href="#Arduino" class="headerlink" title="Arduino"></a>Arduino</h1><p><a href="http://johnny-five.io/" target="_blank" rel="noopener">johny-five</a><br><a href="https://2017.stateofjs.com/2017/css/developers/" target="_blank" rel="noopener">The state of javascript at 2017</a></p>
+]]></content>
+      <categories>
+        <category>Enhancement</category>
+      </categories>
+      <tags>
+        <tag>Os</tag>
+        <tag>Cmd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Website Development Resources</title>
+    <url>/jovis_Blog/2020/06/26/Website-Development-Resources/</url>
+    <content><![CDATA[<h1 id="Template-of-Website"><a href="#Template-of-Website" class="headerlink" title="Template of Website"></a>Template of Website</h1><p>This section will introduce ready-to-use website template. It save a lot of time in front end design.</p>
+<p><a href="https://html5up.net/" target="_blank" rel="noopener">html5up</a></p>
+<h1 id="Lib-or-CSS-Template"><a href="#Lib-or-CSS-Template" class="headerlink" title="Lib or CSS Template"></a>Lib or CSS Template</h1><h3 id="How-do-safely-store-the-user-password"><a href="#How-do-safely-store-the-user-password" class="headerlink" title="How do safely store the user password."></a>How do safely store the user password.</h3><p><a href="https://www.npmjs.com/package/bcrypt" target="_blank" rel="noopener">JS.npm Lib Bcrybt</a></p>
+<h3 id="Make-you-website-animated-Resources"><a href="#Make-you-website-animated-Resources" class="headerlink" title="Make you website animated Resources"></a>Make you website animated Resources</h3><p>Animate.css is a library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints. <a href="https://animate.style/" target="_blank" rel="noopener">Animate.css</a></p>
+<p>Particle.js is a lib for creating particle animation. <a href="https://www.npmjs.com/package/react-particles-js" target="_blank" rel="noopener">Particles.js</a></p>
+<h1 id="Image-or-Video-Resources"><a href="#Image-or-Video-Resources" class="headerlink" title="Image or Video Resources"></a>Image or Video Resources</h1><h3 id="Image-and-Video"><a href="#Image-and-Video" class="headerlink" title="Image and Video"></a>Image and Video</h3><p>You can find image, video or music resources over here <a href="https://www.shutterstock.com/" target="_blank" rel="noopener">Shutterstock</a></p>
+<h3 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h3><p>video resources. <a href="https://vimeo.com/" target="_blank" rel="noopener">Vimeo</a>, <a href="https://coverr.co/" target="_blank" rel="noopener">Coverr</a>,</p>
 ]]></content>
       <categories>
         <category>Web</category>
       </categories>
       <tags>
-        <tag>hexo-next</tag>
-        <tag>enhancement</tag>
+        <tag>Bookmark</tag>
       </tags>
   </entry>
   <entry>
