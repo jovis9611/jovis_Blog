@@ -589,7 +589,7 @@ Install Node.js DownloadLink. Node.js is shara
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  327
+                  332
                 </span>
               
 
@@ -769,7 +769,7 @@ We are the client to get the information through web browser. But behind that, w
                   <span class="post-meta-item-text">Words count in article&#58;</span>
                 
                 <span title="Words count in article">
-                  180
+                  184
                 </span>
               
 
@@ -796,8 +796,8 @@ We are the client to get the information through web browser. But behind that, w
       
         
           
-          Useful References for develop a websitehtml doc Can I Use?. Browser support tables for modern web technologies.Jquery Cheat Sheet
-Template of WebsiteThis section will introduce ready-to-use website te
+          Useful References for develop a websitehtml doc\ Can I Use?. Browser support tables for modern web technologies.\Jquery Cheat Sheet
+Template of WebsiteThis section will introduce ready-to-use website 
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1536,7 +1536,7 @@ Clone these from these https://github.com/justdjango/django_proj
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">3.1k</span>
+    <span title="Site words total count">3.2k</span>
   
 </div>
 
@@ -2094,6 +2094,28 @@ setInterval("createtime()",250);
   
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
 
   
 
@@ -2111,7 +2133,7 @@ setInterval("createtime()",250);
       white-space: nowrap;
       vertical-align: middle;
       cursor: pointer;
-      background-color: #333;
+      background-color: whitesmoke;
 
       border: 1px solid #d5d5d5;
       border-radius: 3px;
@@ -2142,7 +2164,7 @@ setInterval("createtime()",250);
     $('.highlight').each(function (i, e) {
       var $wrap = $('<div>').addClass('highlight-wrap')
       $(e).after($wrap)
-      $wrap.append($('<button>').addClass('copy-btn').append('post.copy_button').on('click', function (e) {
+      $wrap.append($('<button>').addClass('copy-btn').append('Copy').on('click', function (e) {
         var code = $(this).parent().find('.code').find('.line').map(function (i, e) {
           return $(e).text()
         }).toArray().join('\n')
