@@ -76,35 +76,6 @@
       </categories>
   </entry>
   <entry>
-    <title>Website Development Resources</title>
-    <url>/jovis_Blog/2020/06/26/Website-Development-Resources/</url>
-    <content><![CDATA[<h1 id="Useful-References-for-develop-a-website"><a href="#Useful-References-for-develop-a-website" class="headerlink" title="Useful References for develop a website"></a>Useful References for develop a website</h1><p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress" target="_blank" rel="noopener">html doc</a>\<br> <a href="https://caniuse.com/" target="_blank" rel="noopener">Can I Use?</a>. Browser support tables for modern web technologies.\<br><a href="http://youmightnotneedjquery.com/" target="_blank" rel="noopener">Jquery Cheat Sheet</a></p>
-<h1 id="Template-of-Website"><a href="#Template-of-Website" class="headerlink" title="Template of Website"></a>Template of Website</h1><p>This section will introduce ready-to-use website template. It save a lot of time in front end design.</p>
-<p><a href="https://html5up.net/" target="_blank" rel="noopener">html5up</a>\<br><a href="https://www.creative-tim.com/" target="_blank" rel="noopener">creative-tim</a>\<br><a href="https://mdbootstrap.com/freebies/" target="_blank" rel="noopener">mdbBootstrap</a>\<br><a href="http://www.mashup-template.com/templates.html" target="_blank" rel="noopener">mashup-template</a>\<br><a href="https://startbootstrap.com/themes/" target="_blank" rel="noopener">startBootstrap</a></p>
-<h1 id="Front-end-Lib-or-CSS-Template"><a href="#Front-end-Lib-or-CSS-Template" class="headerlink" title="Front-end Lib or CSS Template"></a>Front-end Lib or CSS Template</h1><h3 id="Lib"><a href="#Lib" class="headerlink" title="Lib"></a>Lib</h3><p><a href="https://www.npmjs.com/package/bcrypt" target="_blank" rel="noopener">JS.npm Lib Bcrybt</a>. How do safely store the user password.</p>
-<h3 id="Make-you-website-animated-Resources"><a href="#Make-you-website-animated-Resources" class="headerlink" title="Make you website animated Resources"></a>Make you website animated Resources</h3><p><a href="https://leaverou.github.io/css3patterns/" target="_blank" rel="noopener">CSS3 Pattern Gallery</a> <strong>CSS3 Patern Gallery</strong></p>
-<p><a href="https://animate.style/" target="_blank" rel="noopener">Animate.css</a>. <strong>Animate.css</strong> is a library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints.</p>
-<p><a href="https://www.w3schools.com/css/css3_gradients.asp" target="_blank" rel="noopener">W3school-CSS3 Linear Gradient</a>. <strong>Linear Gradient</strong></p>
-<p><a href="https://loading.io/pattern/" target="_blank" rel="noopener">Loading.io</a>. <strong>Loading icon</strong>.</p>
-<p><a href="https://www.npmjs.com/package/react-particles-js" target="_blank" rel="noopener">Particles.js</a>. <strong>react-particle.js</strong> is a lib for creating particle animation.</p>
-<p><a href="https://vincentgarreau.com/particles.js/" target="_blank" rel="noopener">Particles.js</a>. <strong>Particle.js</strong> is a online particle preview.</p>
-<p><a href="https://www.npmjs.com/package/react-tilt" target="_blank" rel="noopener">tilt.js</a>. <strong>Hover effect</strong></p>
-<h1 id="Font"><a href="#Font" class="headerlink" title="Font"></a>Font</h1><p><a href="https://www.cufonfonts.com/category/sans-serif" target="_blank" rel="noopener">cufon</a>. High quality free font for desktop.</p>
-<h1 id="Image-or-Video-or-Music-Resources"><a href="#Image-or-Video-or-Music-Resources" class="headerlink" title="Image or Video or Music Resources"></a>Image or Video or Music Resources</h1><h3 id="Image-Video-and-Music"><a href="#Image-Video-and-Music" class="headerlink" title="Image, Video and Music"></a>Image, Video and Music</h3><p>You can find image, video or music resources over here <a href="https://www.shutterstock.com/" target="_blank" rel="noopener">Shutterstock</a>, <a href="https://icons8.com/" target="_blank" rel="noopener">icons8</a></p>
-<h3 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h3><p>Video resources. <a href="https://vimeo.com/" target="_blank" rel="noopener">Vimeo</a>, <a href="https://coverr.co/" target="_blank" rel="noopener">Coverr</a>, <a href="https://dissolve.com/footage" target="_blank" rel="noopener">Dissolve</a></p>
-<h1 id="Ai"><a href="#Ai" class="headerlink" title="Ai"></a>Ai</h1><h3 id="ML"><a href="#ML" class="headerlink" title="ML"></a>ML</h3><p><a href="https://www.clarifai.com/" target="_blank" rel="noopener">Clarifai</a></p>
-<h1 id="Online-Compiler"><a href="#Online-Compiler" class="headerlink" title="Online Compiler"></a>Online Compiler</h1><p><a href="https://babeljs.io/" target="_blank" rel="noopener">Javascript compiler-Babel</a><br><a href="https://codepen.io/" target="_blank" rel="noopener">Codepen</a><br><a href="https://jsfiddle.net/" target="_blank" rel="noopener">JsFiddle</a></p>
-<p><a href="https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes" target="_blank" rel="noopener">Javascripts Key Code</a></p>
-<h1 id="Other-Resources"><a href="#Other-Resources" class="headerlink" title="Other Resources"></a>Other Resources</h1><p><a href="https://mailchimp.com/" target="_blank" rel="noopener">Email MArketing with mailchimp</a></p>
-]]></content>
-      <categories>
-        <category>Web</category>
-      </categories>
-      <tags>
-        <tag>Resources</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Web Development for Very  Beginner</title>
     <url>/jovis_Blog/2020/06/26/Web-Development-for-very-Beginner/</url>
     <content><![CDATA[<h1 id="Website-and-Internet"><a href="#Website-and-Internet" class="headerlink" title="Website and Internet"></a>Website and Internet</h1><p>Before starting to program, you may wonder what relationship between Server and Client.</p>
@@ -131,6 +102,35 @@
 <p><a href="https://makeawebsitehub.com/wp-content/uploads/2015/09/jquery-mega-cheat-sheet-Printable.pdf" target="_blank" rel="noopener">Jquery Cheetsheet</a></p>
 <p><a href="https://oscarotero.com/jquery/" target="_blank" rel="noopener">Interative Jquery Cheat Sheet</a></p>
 <h1 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h1><h3 id="Youtube-Channel"><a href="#Youtube-Channel" class="headerlink" title="Youtube Channel"></a>Youtube Channel</h3><p><a href="https://www.youtube.com/channel/UCDCHcqyeQgJ-jVSd6VJkbCw/featured" target="_blank" rel="noopener">CodeStackr</a></p>
+]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>Resources</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Website Development Resources</title>
+    <url>/jovis_Blog/2020/06/26/Website-Development-Resources/</url>
+    <content><![CDATA[<h1 id="Useful-References-for-develop-a-website"><a href="#Useful-References-for-develop-a-website" class="headerlink" title="Useful References for develop a website"></a>Useful References for develop a website</h1><p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress" target="_blank" rel="noopener">html doc</a>\<br> <a href="https://caniuse.com/" target="_blank" rel="noopener">Can I Use?</a>. Browser support tables for modern web technologies.\<br><a href="http://youmightnotneedjquery.com/" target="_blank" rel="noopener">Jquery Cheat Sheet</a></p>
+<h1 id="Template-of-Website"><a href="#Template-of-Website" class="headerlink" title="Template of Website"></a>Template of Website</h1><p>This section will introduce ready-to-use website template. It save a lot of time in front end design.</p>
+<p><a href="https://html5up.net/" target="_blank" rel="noopener">html5up</a>\<br><a href="https://www.creative-tim.com/" target="_blank" rel="noopener">creative-tim</a>\<br><a href="https://mdbootstrap.com/freebies/" target="_blank" rel="noopener">mdbBootstrap</a>\<br><a href="http://www.mashup-template.com/templates.html" target="_blank" rel="noopener">mashup-template</a>\<br><a href="https://startbootstrap.com/themes/" target="_blank" rel="noopener">startBootstrap</a></p>
+<h1 id="Front-end-Lib-or-CSS-Template"><a href="#Front-end-Lib-or-CSS-Template" class="headerlink" title="Front-end Lib or CSS Template"></a>Front-end Lib or CSS Template</h1><h3 id="Lib"><a href="#Lib" class="headerlink" title="Lib"></a>Lib</h3><p><a href="https://www.npmjs.com/package/bcrypt" target="_blank" rel="noopener">JS.npm Lib Bcrybt</a>. How do safely store the user password.</p>
+<h3 id="Make-you-website-animated-Resources"><a href="#Make-you-website-animated-Resources" class="headerlink" title="Make you website animated Resources"></a>Make you website animated Resources</h3><p><a href="https://leaverou.github.io/css3patterns/" target="_blank" rel="noopener">CSS3 Pattern Gallery</a> <strong>CSS3 Patern Gallery</strong></p>
+<p><a href="https://animate.style/" target="_blank" rel="noopener">Animate.css</a>. <strong>Animate.css</strong> is a library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints.</p>
+<p><a href="https://www.w3schools.com/css/css3_gradients.asp" target="_blank" rel="noopener">W3school-CSS3 Linear Gradient</a>. <strong>Linear Gradient</strong></p>
+<p><a href="https://loading.io/pattern/" target="_blank" rel="noopener">Loading.io</a>. <strong>Loading icon</strong>.</p>
+<p><a href="https://www.npmjs.com/package/react-particles-js" target="_blank" rel="noopener">Particles.js</a>. <strong>react-particle.js</strong> is a lib for creating particle animation.</p>
+<p><a href="https://vincentgarreau.com/particles.js/" target="_blank" rel="noopener">Particles.js</a>. <strong>Particle.js</strong> is a online particle preview.</p>
+<p><a href="https://www.npmjs.com/package/react-tilt" target="_blank" rel="noopener">tilt.js</a>. <strong>Hover effect</strong></p>
+<h1 id="Font"><a href="#Font" class="headerlink" title="Font"></a>Font</h1><p><a href="https://www.cufonfonts.com/category/sans-serif" target="_blank" rel="noopener">cufon</a>. High quality free font for desktop.</p>
+<h1 id="Image-or-Video-or-Music-Resources"><a href="#Image-or-Video-or-Music-Resources" class="headerlink" title="Image or Video or Music Resources"></a>Image or Video or Music Resources</h1><h3 id="Image-Video-and-Music"><a href="#Image-Video-and-Music" class="headerlink" title="Image, Video and Music"></a>Image, Video and Music</h3><p>You can find image, video or music resources over here <a href="https://www.shutterstock.com/" target="_blank" rel="noopener">Shutterstock</a>, <a href="https://icons8.com/" target="_blank" rel="noopener">icons8</a></p>
+<h3 id="Video"><a href="#Video" class="headerlink" title="Video"></a>Video</h3><p>Video resources. <a href="https://vimeo.com/" target="_blank" rel="noopener">Vimeo</a>, <a href="https://coverr.co/" target="_blank" rel="noopener">Coverr</a>, <a href="https://dissolve.com/footage" target="_blank" rel="noopener">Dissolve</a></p>
+<h1 id="Ai"><a href="#Ai" class="headerlink" title="Ai"></a>Ai</h1><h3 id="ML"><a href="#ML" class="headerlink" title="ML"></a>ML</h3><p><a href="https://www.clarifai.com/" target="_blank" rel="noopener">Clarifai</a></p>
+<h1 id="Online-Compiler"><a href="#Online-Compiler" class="headerlink" title="Online Compiler"></a>Online Compiler</h1><p><a href="https://babeljs.io/" target="_blank" rel="noopener">Javascript compiler-Babel</a><br><a href="https://codepen.io/" target="_blank" rel="noopener">Codepen</a><br><a href="https://jsfiddle.net/" target="_blank" rel="noopener">JsFiddle</a></p>
+<p><a href="https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes" target="_blank" rel="noopener">Javascripts Key Code</a></p>
+<h1 id="Other-Resources"><a href="#Other-Resources" class="headerlink" title="Other Resources"></a>Other Resources</h1><p><a href="https://mailchimp.com/" target="_blank" rel="noopener">Email MArketing with mailchimp</a></p>
 ]]></content>
       <categories>
         <category>Web</category>
