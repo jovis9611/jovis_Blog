@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jovis Blog</title>
+  
+  
+  <link href="/jovis_Blog/atom.xml" rel="self"/>
+  
+  <link href="https://jovis9611.github.io/jovis_Blog/"/>
+  <updated>2020-06-26T11:28:55.795Z</updated>
+  <id>https://jovis9611.github.io/jovis_Blog/</id>
+  
+  <author>
+    <name>Jovis Chuah</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Web Development for Intermediate- React.js</title>
+    <link href="https://jovis9611.github.io/jovis_Blog/2020/06/26/Intermediate/"/>
+    <id>https://jovis9611.github.io/jovis_Blog/2020/06/26/Intermediate/</id>
+    <published>2020-06-26T10:01:22.000Z</published>
+    <updated>2020-06-26T11:28:55.795Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web" scheme="https://jovis9611.github.io/jovis_Blog/categories/Web/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Web Development for Very  Beginner</title>
+    <link href="https://jovis9611.github.io/jovis_Blog/2020/06/26/Web-Development-for-very-Beginner/"/>
+    <id>https://jovis9611.github.io/jovis_Blog/2020/06/26/Web-Development-for-very-Beginner/</id>
+    <published>2020-06-26T08:54:51.000Z</published>
+    <updated>2020-06-26T10:29:18.413Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web" scheme="https://jovis9611.github.io/jovis_Blog/categories/Web/"/>
+    
+    
+      <category term="Resources" scheme="https://jovis9611.github.io/jovis_Blog/tags/Resources/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Website Development Resources</title>
+    <link href="https://jovis9611.github.io/jovis_Blog/2020/06/26/Website-Development-Resources/"/>
+    <id>https://jovis9611.github.io/jovis_Blog/2020/06/26/Website-Development-Resources/</id>
+    <published>2020-06-26T07:57:44.000Z</published>
+    <updated>2020-06-26T11:00:53.711Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web" scheme="https://jovis9611.github.io/jovis_Blog/categories/Web/"/>
+    
+    
+      <category term="Resources" scheme="https://jovis9611.github.io/jovis_Blog/tags/Resources/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Interesting Enhancement Link</title>
+    <link href="https://jovis9611.github.io/jovis_Blog/2020/06/26/Interesting-Enhancement-Tool/"/>
+    <id>https://jovis9611.github.io/jovis_Blog/2020/06/26/Interesting-Enhancement-Tool/</id>
+    <published>2020-06-26T07:39:11.000Z</published>
+    <updated>2020-06-26T08:17:53.159Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Enhancement" scheme="https://jovis9611.github.io/jovis_Blog/categories/Enhancement/"/>
+    
+    
+      <category term="Os" scheme="https://jovis9611.github.io/jovis_Blog/tags/Os/"/>
+    
+      <category term="Cmd" scheme="https://jovis9611.github.io/jovis_Blog/tags/Cmd/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Extensions of Hexo-Next</title>
+    <link href="https://jovis9611.github.io/jovis_Blog/2020/06/26/Embedded-Codepen-and-JsFiddle-in-Hexo/"/>
+    <id>https://jovis9611.github.io/jovis_Blog/2020/06/26/Embedded-Codepen-and-JsFiddle-in-Hexo/</id>
+    <published>2020-06-26T06:20:02.000Z</published>
+    <updated>2020-06-26T07:40:31.298Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Enhancement" scheme="https://jovis9611.github.io/jovis_Blog/categories/Enhancement/"/>
+    
+    
+      <category term="hexo-next" scheme="https://jovis9611.github.io/jovis_Blog/tags/hexo-next/"/>
+    
+      <category term="Web" scheme="https://jovis9611.github.io/jovis_Blog/tags/Web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Video Tut_ Project Ecommerce using Django Part 1</title>
+    <link href="https://jovis9611.github.io/jovis_Blog/2020/06/12/2020/v_tut_DEcommerce/"/>
+    <id>https://jovis9611.github.io/jovis_Blog/2020/06/12/2020/v_tut_DEcommerce/</id>
+    <published>2020-06-12T14:38:38.000Z</published>
+    <updated>2020-06-27T01:10:47.241Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+    
+      <category term="IT" scheme="https://jovis9611.github.io/jovis_Blog/categories/IT/"/>
+    
+    
+      <category term="Django" scheme="https://jovis9611.github.io/jovis_Blog/tags/Django/"/>
+    
+  </entry>
+  
+</feed>
