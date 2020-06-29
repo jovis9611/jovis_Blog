@@ -6,7 +6,7 @@
   <link href="/jovis_Blog/atom.xml" rel="self"/>
   
   <link href="https://jovis9611.github.io/jovis_Blog/"/>
-  <updated>2020-06-26T11:28:55.795Z</updated>
+  <updated>2020-06-28T07:38:27.954Z</updated>
   <id>https://jovis9611.github.io/jovis_Blog/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Learnt from Hotel Demanding Note</title>
+    <link href="https://jovis9611.github.io/jovis_Blog/2020/06/28/hotel-demanding-ds/"/>
+    <id>https://jovis9611.github.io/jovis_Blog/2020/06/28/hotel-demanding-ds/</id>
+    <published>2020-06-28T06:50:47.000Z</published>
+    <updated>2020-06-28T07:38:27.954Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Web Development for Intermediate- React.js</title>

@@ -244,4 +244,12 @@ templates(right)->model(right)->view(right)</textarea><textarea id="flowchart-0-
         <tag>Django</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Learnt from Hotel Demanding Note</title>
+    <url>/jovis_Blog/2020/06/28/hotel-demanding-ds/</url>
+    <content><![CDATA[<p>The dataset analysis are all done in Jupyter notebook.</p>
+<h1 id="Data-Preprocessing"><a href="#Data-Preprocessing" class="headerlink" title="Data Preprocessing"></a>Data Preprocessing</h1><h3 id="Data-Understanding"><a href="#Data-Understanding" class="headerlink" title="Data Understanding"></a>Data Understanding</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"></span><br><span class="line">ds=pd.read_csv(<span class="string">'location of csv file'</span>)</span><br><span class="line">ds.head()</span><br><span class="line">ds.describe()</span><br><span class="line">ds.columns</span><br><span class="line">ds.shape</span><br></pre></td></tr></table></figure>
+<p>++ display() is a syntax, use for display dataframe as table in Jupyter.</p>
+]]></content>
+  </entry>
 </search>
