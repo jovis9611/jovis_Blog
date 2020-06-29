@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="en">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+  
+  
+    
+    
+  <script src="/jovis_Blog/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/jovis_Blog/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/jovis_Blog/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/jovis_Blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/jovis_Blog/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/jovis_Blog/images/apple-touch-icon.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/jovis_Blog/images/favicon-32x32.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/jovis_Blog/images/favicon-16x16.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/jovis_Blog/images/android-chrome-512x512.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Django," />
+
+
+
+
+
+  <link rel="alternate" href="/jovis_Blog/atom.xml" title="Jovis Blog" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="Video Tutorial Link :Youtube Link Github link : ori whole code Django Template File : template file Project ConfigurationProject Set Up Clone these from these https:&#x2F;&#x2F;github.com&#x2F;justdjango&#x2F;django_proj">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Video Tut_ Project Ecommerce using Django Part 1">
+<meta property="og:url" content="https://jovis9611.github.io/jovis_Blog/2020/06/12/2020/v_tut_DEcommerce/index.html">
+<meta property="og:site_name" content="Jovis Blog">
+<meta property="og:description" content="Video Tutorial Link :Youtube Link Github link : ori whole code Django Template File : template file Project ConfigurationProject Set Up Clone these from these https:&#x2F;&#x2F;github.com&#x2F;justdjango&#x2F;django_proj">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-06-12T14:38:38.000Z">
+<meta property="article:modified_time" content="2020-06-27T01:10:47.241Z">
+<meta property="article:author" content="Jovis Chuah">
+<meta property="article:tag" content="Django">
+<meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/jovis_Blog/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://jovis9611.github.io/jovis_Blog/2020/06/12/2020/v_tut_DEcommerce/"/>
+
+
+
+
+
+<script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0fcf8fe2.js","daovoice")</script>
+<script>daovoice('init', {
+  app_id: "29f4cac4"
+});
+daovoice('update');</script>
+
+
+
+  <title>Video Tut_ Project Ecommerce using Django Part 1 | Jovis Blog</title>
+  
+
+
+
+
+
+
+
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/jovis_Blog/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Jovis Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/jovis_Blog/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/jovis_Blog/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/jovis_Blog/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/jovis_Blog/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="Searching..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://jovis9611.github.io/jovis_Blog/jovis_Blog/2020/06/12/2020/v_tut_DEcommerce/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jovis Chuah">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/jovis_Blog/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jovis Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Video Tut_ Project Ecommerce using Django Part 1</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-06-12T22:38:38+08:00">
+                2020-06-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/jovis_Blog/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/jovis_Blog/2020/06/12/2020/v_tut_DEcommerce/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/jovis_Blog/2020/06/12/2020/v_tut_DEcommerce/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"></i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  2k
+                </span>
+              
+
+              
+
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>Video Tutorial Link :<a href="https://www.youtube.com/watch?v=z4USlooVXG0" target="_blank" rel="noopener">Youtube Link</a></p>
+<p>Github link : <a href="https://github.com/justdjango/django-ecommerce" target="_blank" rel="noopener">ori whole code</a></p>
+<p>Django Template File : <a href="https://github.com/justdjango/django_project_boilerplate" target="_blank" rel="noopener">template file</a></p>
+<h1 id="Project-Configuration"><a href="#Project-Configuration" class="headerlink" title="Project Configuration"></a>Project Configuration</h1><h2 id="Project-Set-Up"><a href="#Project-Set-Up" class="headerlink" title="Project Set Up"></a>Project Set Up</h2><ol>
+<li><p>Clone these from these <a href="https://github.com/justdjango/django_project_boilerplate" target="_blank" rel="noopener">https://github.com/justdjango/django_project_boilerplate</a> and <a href="https://mdbootstrap.com/freebies/jquery/e-commerce/" target="_blank" rel="noopener">https://mdbootstrap.com/freebies/jquery/e-commerce/</a> in visual studio</p>
+</li>
+<li><p>Run <code>pip install virtualenv</code> at the cloned folder.</p>
+<ul>
+<li>Then run<code>venv env</code> and <code>env\scripts\activate</code></li>
+<li>Will come out Python virtual environment console.</li>
+<li>You can install Python library and or run Python cmd in this environment.</li>
+</ul>
+</li>
+<li><p>django cmd</p>
+<ul>
+<li><code>python manage.py runserver</code> is to deploy webpage on browser.</li>
+<li><code>python manage.py createsuperuser</code> for manage the admin panel.</li>
+<li><code>python manage.py</code> + <code>makemigrations</code> or <code>migrate</code> cmd are use after doing modification in models.py.</li>
+</ul>
+</li>
+<li><p>Sample Django forlder structure:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">djecommerce&#x2F;</span><br><span class="line">   ├── manage.py</span><br><span class="line">   └── mysite</span><br><span class="line">   ├── **init**.py</span><br><span class="line">   ├── settings.py</span><br><span class="line">   ├── urls.py</span><br><span class="line">   └── wsgi.py&#96;&#96;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<ul>
+<li>Sub app folder(url,view,admin,model).py<ul>
+<li>app. Difference app can integrated with main app.</li>
+</ul>
+</li>
+<li>Main app folder &gt; setting &gt;Installed app: &gt;url<ul>
+<li>main app</li>
+</ul>
+</li>
+<li>static folder<ul>
+<li>Have to modify static folder url in setting for execute js,css in static folder.</li>
+</ul>
+</li>
+<li>template (html)<ul>
+<li>This folder is to store .html files</li>
+<li>Inheritance of html. Base html and other html</li>
+<li>It has like <code>{extends &#39;base.html&#39;}</code> or <code>{include &#39;.html&#39;}</code></li>
+<li>extends (Inherited whole compnent)</li>
+<li>includes (insert other component)</li>
+<li>It also has <code>{load xx}</code>. It function like import</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li><p>Files nside Django main app and sub app:</p>
+<ul>
+<li>url. (for link)</li>
+<li>view (return object to template)</li>
+<li>model (for database modification)</li>
+<li>admin (It has related to the model and it for register database into admin panel also)</li>
+</ul>
+</li>
+<li><p>Move folders (static folders) from mdbootstrap to static folder. Move all html files from mbdbootstrap to templates folder.</p>
+</li>
+<li><p>You can play it around with make some changes at every html files.</p>
+</li>
+</ol>
+<h2 id="Integrated-the-sub-app-and-main-app"><a href="#Integrated-the-sub-app-and-main-app" class="headerlink" title="Integrated the sub app and main app"></a>Integrated the sub app and main app</h2><p>Put following code under:</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment"># main app folder&gt;urls</span></span><br><span class="line">path(<span class="string">''</span>, include(<span class="string">'subapp.urls'</span>, namespace=<span class="string">'subapp'</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># sub app folder&gt;urls</span></span><br><span class="line">app_name = <span class="string">'subapp'</span></span><br></pre></td></tr></table></figure>
+<h1 id="Display-home-html"><a href="#Display-home-html" class="headerlink" title="Display home.html"></a>Display home.html</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">#main app</span></span><br><span class="line"><span class="comment">#settings.py</span></span><br><span class="line">INSTALLED_APPS = [</span><br><span class="line">    <span class="string">'django.contrib.admin'</span>,</span><br><span class="line">    <span class="string">'django.contrib.auth'</span>,</span><br><span class="line">    <span class="string">'django.contrib.contenttypes'</span>,</span><br><span class="line">    <span class="string">'django.contrib.sessions'</span>,</span><br><span class="line">    <span class="string">'django.contrib.messages'</span>,</span><br><span class="line">    <span class="string">'django.contrib.staticfiles'</span>,</span><br><span class="line">    <span class="string">'core'</span></span><br><span class="line">]</span><br><span class="line"></span><br><span class="line"><span class="comment">#In urls.py</span></span><br><span class="line"><span class="keyword">from</span> django.contrib <span class="keyword">import</span> admin</span><br><span class="line"><span class="keyword">from</span> django.urls <span class="keyword">import</span> path,include</span><br><span class="line"></span><br><span class="line">urlpatterns = [</span><br><span class="line">    path(<span class="string">'admin/'</span>, admin.site.urls),</span><br><span class="line">    path(<span class="string">''</span>, include(<span class="string">'core.urls'</span>, namespace=<span class="string">'core'</span>))</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#sub app</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#In views.py</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> django.shortcuts <span class="keyword">import</span> render</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">home</span><span class="params">(request)</span>:</span></span><br><span class="line">   context = &#123;</span><br><span class="line">      <span class="string">'greeting'</span>: <span class="string">'hi'</span></span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">   <span class="keyword">return</span> render(request, <span class="string">'home-page.html'</span>, context)</span><br><span class="line"></span><br><span class="line"><span class="comment"># In urls.py</span></span><br><span class="line"><span class="keyword">from</span> django.urls <span class="keyword">import</span> path</span><br><span class="line"><span class="keyword">from</span> .views <span class="keyword">import</span> home</span><br><span class="line"></span><br><span class="line">urlpatterns=[</span><br><span class="line">   path(<span class="string">''</span>, home, name=<span class="string">'home'</span>)</span><br><span class="line"></span><br><span class="line">]</span><br><span class="line"></span><br><span class="line"><span class="comment"># In home-page.html</span></span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;title&gt;Home&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line"></span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    &lt;h1&gt;Hello world, &#123;&#123;greeting&#125;&#125;&lt;/h1&gt;</span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># run python manage.py runserver</span></span><br></pre></td></tr></table></figure>
+<h1 id="Authendication-Function"><a href="#Authendication-Function" class="headerlink" title="Authendication Function"></a>Authendication Function</h1><ol>
+<li>Authendication function<br>-Import alluath<ul>
+<li><a href="https://django-allauth.readthedocs.io/en/latest/installation.html" target="_blank" rel="noopener">https://django-allauth.readthedocs.io/en/latest/installation.html</a></li>
+<li>Follow instrcution from link above.</li>
+</ul>
+</li>
+</ol>
+<h1 id="Display-item-from-Database-at-html"><a href="#Display-item-from-Database-at-html" class="headerlink" title="Display item from Database at .html"></a>Display item from Database at .html</h1><!-- > model.py and view.py are playing main role for this purpose. -->
+<p>Flow of built up a database and display it in webpage:</p>
+<div id="flowchart-0" class="flow-chart"></div>
+
+<ul>
+<li>Item database (inventory or stock)</li>
+<li><p>The following code block is demostrate the flow.</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">#subapp&gt;models.py</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> django.conf <span class="keyword">import</span> settings</span><br><span class="line"><span class="keyword">from</span> django.db <span class="keyword">import</span> models</span><br><span class="line"></span><br><span class="line">CATEGORY_CHOICES = (</span><br><span class="line">    (<span class="string">'S'</span>, <span class="string">'Shirt'</span>),</span><br><span class="line">    (<span class="string">'SW'</span>, <span class="string">'Sport wear'</span>),</span><br><span class="line">    (<span class="string">'OW'</span>, <span class="string">'Outwear'</span>)</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line">LABEL_CHOICES = (</span><br><span class="line">    (<span class="string">'P'</span>, <span class="string">'primary'</span>),</span><br><span class="line">    (<span class="string">'S'</span>, <span class="string">'secondary'</span>),</span><br><span class="line">    (<span class="string">'D'</span>, <span class="string">'danger'</span>)</span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Item</span><span class="params">(models.Model)</span>:</span></span><br><span class="line">      title = models.CharField(max_length=<span class="number">100</span>)</span><br><span class="line">      price = models.FloatField()</span><br><span class="line">      discount_price = models.FloatField(blank=<span class="literal">True</span>, null=<span class="literal">True</span>)</span><br><span class="line">      category = models.CharField(choices=CATEGORY_CHOICES, max_length=<span class="number">2</span>)</span><br><span class="line">      label = models.CharField(choices=LABEL_CHOICES, max_length=<span class="number">1</span>)</span><br><span class="line">      slug = models.SlugField()</span><br><span class="line">      description = models.TextField()</span><br><span class="line">      image = models.ImageField(null=<span class="literal">True</span>, blank=<span class="literal">True</span>)</span><br><span class="line"></span><br><span class="line">      <span class="function"><span class="keyword">def</span> <span class="title">__str__</span><span class="params">(self)</span>:</span></span><br><span class="line">          <span class="keyword">return</span> self.title</span><br><span class="line"></span><br><span class="line">      <span class="function"><span class="keyword">def</span> <span class="title">get_absolute_url</span><span class="params">(self)</span>:</span></span><br><span class="line">          <span class="keyword">return</span> reverse(<span class="string">"core:product"</span>, kwargs=&#123;</span><br><span class="line">              <span class="string">'slug'</span>: self.slug</span><br><span class="line">          &#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment">#subapp/admin.py</span></span><br><span class="line"><span class="keyword">from</span> django.contrib <span class="keyword">import</span> admin</span><br><span class="line"><span class="keyword">from</span> .models <span class="keyword">import</span> Item</span><br><span class="line"></span><br><span class="line">admin.site.register(Item)</span><br><span class="line"></span><br><span class="line"><span class="comment"># views.py</span></span><br><span class="line"><span class="keyword">from</span> .models <span class="keyword">import</span> Item</span><br><span class="line"><span class="keyword">from</span> django.views.generic <span class="keyword">import</span> ListView</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">HomeView</span><span class="params">(ListView)</span>:</span></span><br><span class="line">    model = Item</span><br><span class="line">    paginate_by = <span class="number">10</span> <span class="comment"># for pagination</span></span><br><span class="line">    template_name = <span class="string">"home.html"</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># urls.py</span></span><br><span class="line"><span class="keyword">from</span> .views <span class="keyword">import</span> ItemDetailView</span><br><span class="line"></span><br><span class="line">urlpatterns = [</span><br><span class="line">    path(<span class="string">''</span>, HomeView.as_view(), name=<span class="string">'home'</span>)</span><br><span class="line">]</span><br><span class="line"></span><br><span class="line"><span class="comment"># home.html</span></span><br><span class="line">  &#123;% <span class="keyword">for</span> item <span class="keyword">in</span> object_list %&#125;</span><br><span class="line">      &lt;div class="col-lg-3 col-md-6 mb-4"&gt;</span><br><span class="line"></span><br><span class="line">        &lt;div class="card"&gt;</span><br><span class="line"></span><br><span class="line">          &lt;div class="view overlay"&gt;</span><br><span class="line">            &#123;% comment %&#125; &lt;img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12.jpg" class="card-img-top" &#123;% endcomment %&#125;</span><br><span class="line">            &lt;img src="&#123;&#123; item.image.url &#125;&#125;" class="card-img-top"&gt;</span><br><span class="line">            &lt;a href=<span class="string">"&#123;&#123; item.get_absolute_url &#125;&#125;"</span>&gt;</span><br><span class="line">              &lt;div class="mask rgba-white-slight"&gt;&lt;/div&gt;</span><br><span class="line">            &lt;/a&gt;</span><br><span class="line">          &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">          &lt;div class="card-body text-center"&gt;</span><br><span class="line">            &lt;a href="" class="grey-text"&gt;</span><br><span class="line">              &lt;h5&gt;&#123;&#123; item.get_category_display &#125;&#125;&lt;/h5&gt;</span><br><span class="line">            &lt;/a&gt;</span><br><span class="line">            &lt;h5&gt;</span><br><span class="line">              &lt;strong&gt;</span><br><span class="line">                &lt;a href="&#123;&#123; item.get_absolute_url &#125;&#125;" class="dark-grey-text"&gt;&#123;&#123; item.title &#125;&#125;</span><br><span class="line">                  &lt;span class="badge badge-pill &#123;&#123; item.get_label_display &#125;&#125;-color"&gt;NEW&lt;/span&gt;</span><br><span class="line">                &lt;/a&gt;</span><br><span class="line">              &lt;/strong&gt;</span><br><span class="line">            &lt;/h5&gt;</span><br><span class="line"></span><br><span class="line">          &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">        &lt;/div&gt;</span><br><span class="line"></span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &#123;% endfor %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--Pagination--&gt;</span></span><br><span class="line"></span><br><span class="line">&#123;% if is_paginated %&#125;</span><br><span class="line"><span class="tag">&lt;<span class="name">nav</span> <span class="attr">class</span>=<span class="string">"d-flex justify-content-center wow fadeIn"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">ul</span> <span class="attr">class</span>=<span class="string">"pagination pg-blue"</span>&gt;</span></span><br><span class="line">    &#123;% if page_obj.has_previous %&#125;</span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"page-item"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">a</span></span></span><br><span class="line"><span class="tag">        <span class="attr">class</span>=<span class="string">"page-link"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">href</span>=<span class="string">"?page=&#123;&#123; page_obj.previous_page_number &#125;&#125;"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">aria-label</span>=<span class="string">"Previous"</span></span></span><br><span class="line"><span class="tag">      &gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">aria-hidden</span>=<span class="string">"true"</span>&gt;</span><span class="symbol">&amp;laquo;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"sr-only"</span>&gt;</span>Previous<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"page-item active"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"page-link"</span> <span class="attr">href</span>=<span class="string">"?page=&#123;&#123; page_obj.number &#125;&#125;"</span></span></span><br><span class="line"><span class="tag">        &gt;</span>&#123;&#123; page_obj.number &#125;&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"sr-only"</span>&gt;</span>(current)<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    &#123;% if page_obj.has_next %&#125;</span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span> <span class="attr">class</span>=<span class="string">"page-item"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">a</span></span></span><br><span class="line"><span class="tag">        <span class="attr">class</span>=<span class="string">"page-link"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">href</span>=<span class="string">"?page=&#123;&#123; page_obj.next_page_number &#125;&#125;"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">aria-label</span>=<span class="string">"Next"</span></span></span><br><span class="line"><span class="tag">      &gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">aria-hidden</span>=<span class="string">"true"</span>&gt;</span><span class="symbol">&amp;raquo;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"sr-only"</span>&gt;</span>Next<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    &#123;% endif %&#125;</span><br><span class="line">  <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">nav</span>&gt;</span></span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h1 id="Order-Summary"><a href="#Order-Summary" class="headerlink" title="Order Summary"></a>Order Summary</h1><h2 id="Display-the-order-summary-page"><a href="#Display-the-order-summary-page" class="headerlink" title="Display the order summary page"></a>Display the order summary page</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1. Put following code under core&gt;views.py</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">orderSummaryView</span><span class="params">(LoginRequiredMixin, View)</span>:</span></span><br><span class="line">      <span class="function"><span class="keyword">def</span> <span class="title">get</span><span class="params">(self, *args, **kwargs)</span>:</span></span><br><span class="line"></span><br><span class="line">         <span class="keyword">try</span>:</span><br><span class="line">               order = Order.objects.get(user=self.request.user, ordered=<span class="literal">False</span>)</span><br><span class="line">               context = &#123;</span><br><span class="line">                  <span class="string">'object'</span>: order</span><br><span class="line">               &#125;</span><br><span class="line">               <span class="keyword">return</span> render(self.request, <span class="string">'order_summary.html'</span>, context)</span><br><span class="line">         <span class="keyword">except</span> ObjectDoesNotExist:</span><br><span class="line">               messages.error(self.request, <span class="string">"You do not have an active order."</span>)</span><br><span class="line">               <span class="keyword">return</span> redirect(<span class="string">"/"</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. Put following code under core&gt; urls.py</span></span><br><span class="line"></span><br><span class="line">   <span class="keyword">from</span> .views <span class="keyword">import</span> orderSummaryView</span><br><span class="line">   urlpatterns = [</span><br><span class="line">      path(<span class="string">'order-summary/'</span>, orderSummaryView.as_view(), name=<span class="string">'order_summary'</span>)</span><br><span class="line">   ]</span><br></pre></td></tr></table></figure>
+<h2 id="Create-an-order-summary-table"><a href="#Create-an-order-summary-table" class="headerlink" title="Create an order summary table"></a>Create an order summary table</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br></pre></td><td class="code"><pre><span class="line">In order-summary.html</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">table</span> <span class="attr">class</span>=<span class="string">"table"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">thead</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">th</span> <span class="attr">scope</span>=<span class="string">"col"</span>&gt;</span>#<span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">th</span> <span class="attr">scope</span>=<span class="string">"col"</span>&gt;</span>Item Title<span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">th</span> <span class="attr">scope</span>=<span class="string">"col"</span>&gt;</span>Price<span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">th</span> <span class="attr">scope</span>=<span class="string">"col"</span>&gt;</span>Quantity<span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">th</span> <span class="attr">scope</span>=<span class="string">"col"</span>&gt;</span>Total Price<span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">thead</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">tbody</span>&gt;</span></span><br><span class="line">    &#123;% for order_item in object.items.all %&#125;</span><br><span class="line">    <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">th</span> <span class="attr">scope</span>=<span class="string">"row"</span>&gt;</span>&#123;&#123; forloop.counter &#125;&#125;<span class="tag">&lt;/<span class="name">th</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span>&gt;</span>&#123;&#123;order_item.item.title&#125;&#125;<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span>&gt;</span>&#123;&#123;order_item.item.price&#125;&#125;<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">a</span></span></span><br><span class="line"><span class="tag">          <span class="attr">href</span>=<span class="string">"&#123;% url 'core:remove_single_item_from_cart'  order_item.item.slug %&#125;"</span></span></span><br><span class="line"><span class="tag">          &gt;</span><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fas fa-minus mr-2"</span>&gt;</span> <span class="tag">&lt;/<span class="name">i</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span></span></span><br><span class="line"><span class="tag">        &gt;</span>&#123;&#123;order_item.quantity&#125;&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"&#123;% url 'core:add_to_cart'  order_item.item.slug %&#125;"</span></span></span><br><span class="line"><span class="tag">          &gt;</span><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fas fa-plus ml-2"</span>&gt;</span> <span class="tag">&lt;/<span class="name">i</span></span></span><br><span class="line"><span class="tag">        &gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span>&gt;</span></span><br><span class="line">        &#123;% if order_item.item.discount_price %&#125;</span><br><span class="line">        $&#123;&#123;order_item.get_total_discount_item_price&#125;&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"badge badge-primary"</span></span></span><br><span class="line"><span class="tag">          &gt;</span>(Saving $&#123;&#123;order_item.get_amount_saved&#125;&#125;)<span class="tag">&lt;/<span class="name">span</span></span></span><br><span class="line"><span class="tag">        &gt;</span></span><br><span class="line"></span><br><span class="line">        &#123;% else %&#125; $&#123;&#123;order_item.get_total_item_price&#125;&#125; &#123;% endif %&#125;</span><br><span class="line">        <span class="tag">&lt;<span class="name">a</span></span></span><br><span class="line"><span class="tag">          <span class="attr">style</span>=<span class="string">"color:red"</span></span></span><br><span class="line"><span class="tag">          <span class="attr">href</span>=<span class="string">"&#123;% url 'core:remove_from_cart' order_item.item.slug %&#125;"</span></span></span><br><span class="line"><span class="tag">          &gt;</span><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fas fa-trash float-right"</span>&gt;</span> <span class="tag">&lt;/<span class="name">i</span></span></span><br><span class="line"><span class="tag">        &gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">    &#123;% empty %&#125;</span><br><span class="line">    <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span> <span class="attr">colspan</span>=<span class="string">"5"</span>&gt;</span>Your cart is empty<span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>$&#123;&#123;object.get_total&#125;&#125;<span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">td</span> <span class="attr">colspan</span>=<span class="string">"5"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"btn btn-primary float-right"</span> <span class="attr">href</span>=<span class="string">"/"</span>&gt;</span></span><br><span class="line">          Continue Shopping</span><br><span class="line">        <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">tbody</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br><span class="line">   &#123;% endfor %&#125;</span><br><span class="line">           &#123;% if object.get_total %&#125;</span><br><span class="line">                 <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line">                       <span class="tag">&lt;<span class="name">td</span> <span class="attr">colspan</span>=<span class="string">"4"</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span> Order Total <span class="tag">&lt;/<span class="name">b</span>&gt;</span> <span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">                       <span class="tag">&lt;<span class="name">td</span>&gt;</span><span class="tag">&lt;<span class="name">b</span>&gt;</span>$&#123;&#123;object.get_total&#125;&#125;<span class="tag">&lt;/<span class="name">b</span>&gt;</span><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line">                <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">                 <span class="tag">&lt;<span class="name">tr</span>&gt;</span></span><br><span class="line"></span><br><span class="line">                   <span class="tag">&lt;<span class="name">td</span> <span class="attr">colspan</span>=<span class="string">"5"</span>&gt;</span></span><br><span class="line">                     <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">'btn btn-warning float-right ml-2'</span> <span class="attr">href</span>=<span class="string">"/checkout/"</span>&gt;</span> Proceed to Check Out <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">                     <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">'btn btn-primary float-right'</span> <span class="attr">href</span>=<span class="string">"/"</span>&gt;</span> Continue Shopping <span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"></span><br><span class="line">                   <span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br><span class="line"></span><br><span class="line">                <span class="tag">&lt;/<span class="name">tr</span>&gt;</span></span><br><span class="line">           &#123;% endif %&#125;</span><br><span class="line">               <span class="tag">&lt;/<span class="name">tbody</span>&gt;</span></span><br><span class="line">       <span class="tag">&lt;/<span class="name">table</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># In models.py &gt; class OrderItem</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_total_item_price</span><span class="params">(self)</span>:</span></span><br><span class="line">   <span class="keyword">return</span> self.quantity * self.item.price</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_total_discount_item_price</span><span class="params">(self)</span>:</span></span><br><span class="line">   <span class="keyword">return</span> self.quantity * self.item.discount_price</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_amount_saved</span><span class="params">(self)</span>:</span></span><br><span class="line">   <span class="keyword">return</span> self.get_total_item_price() - self.get_total_discount_item_price()</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_final_price</span><span class="params">(self)</span>:</span></span><br><span class="line">   <span class="keyword">if</span> self.item.discount_price:</span><br><span class="line">         <span class="keyword">return</span> self.get_total_discount_item_price()</span><br><span class="line">   <span class="keyword">return</span> self.get_total_item_price()</span><br></pre></td></tr></table></figure>
+<h2 id="Remove-and-add-single-item-from-cart"><a href="#Remove-and-add-single-item-from-cart" class="headerlink" title="Remove and add single item from cart"></a>Remove and add single item from cart</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">Order Summary.html</span><br><span class="line"><span class="tag">&lt;<span class="name">td</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"&#123;% url 'core:remove_single_item_from_cart'  order_item.item.slug %&#125;"</span></span></span><br><span class="line"><span class="tag">    &gt;</span><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fas fa-minus mr-2"</span>&gt;</span> <span class="tag">&lt;/<span class="name">i</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span></span></span><br><span class="line"><span class="tag">  &gt;</span>&#123;&#123;order_item.quantity&#125;&#125;</span><br><span class="line">  <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"&#123;% url 'core:add_to_cart'  order_item.item.slug %&#125;"</span></span></span><br><span class="line"><span class="tag">    &gt;</span><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">"fas fa-plus ml-2"</span>&gt;</span> <span class="tag">&lt;/<span class="name">i</span></span></span><br><span class="line"><span class="tag">  &gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">td</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br></pre></td><td class="code"><pre><span class="line">   <span class="comment"># Remove single item</span></span><br><span class="line"><span class="meta">   @login_required</span></span><br><span class="line">   <span class="function"><span class="keyword">def</span> <span class="title">remove_single_item_from_cart</span><span class="params">(request, slug)</span>:</span></span><br><span class="line">      item = get_object_or_404(Item, slug=slug)</span><br><span class="line">      order_qs = Order.objects.filter(user=request.user, ordered=<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line">      <span class="keyword">if</span> order_qs.exists():</span><br><span class="line">         order = order_qs[<span class="number">0</span>]</span><br><span class="line">         <span class="comment"># check if the order item in order</span></span><br><span class="line">         <span class="keyword">if</span> order.items.filter(item__slug=item.slug).exists():</span><br><span class="line">               order_item = OrderItem.objects.filter(</span><br><span class="line">                  item=item,</span><br><span class="line">                  user=request.user,</span><br><span class="line">                  ordered=<span class="literal">False</span></span><br><span class="line">               )[<span class="number">0</span>]</span><br><span class="line">               <span class="keyword">if</span> order_item.quantity &gt; <span class="number">1</span>:</span><br><span class="line">                  order_item.quantity -= <span class="number">1</span></span><br><span class="line">                  order_item.save()</span><br><span class="line">               <span class="keyword">else</span>:</span><br><span class="line">                  order.items.remove(order_item)</span><br><span class="line"></span><br><span class="line">               messages.info(request, <span class="string">"This item quantity was updated."</span>)</span><br><span class="line">               <span class="keyword">return</span> redirect(<span class="string">"core:order_summary"</span>)</span><br><span class="line"></span><br><span class="line">         <span class="keyword">else</span>:</span><br><span class="line">               messages.info(request, <span class="string">"This item was not  in your cart."</span>)</span><br><span class="line">               <span class="keyword">return</span> redirect(<span class="string">"core:products"</span>, slug=slug)</span><br><span class="line">      <span class="keyword">else</span>:</span><br><span class="line">         messages.info(request, <span class="string">"You do not have an active order."</span>)</span><br><span class="line">         <span class="keyword">return</span> redirect(<span class="string">"core:products"</span>, slug=slug)</span><br><span class="line"></span><br><span class="line">      <span class="keyword">return</span> redirect(<span class="string">"core:products"</span>, slug=slug)</span><br><span class="line"></span><br><span class="line">      <span class="comment"># add_to_cart</span></span><br><span class="line"><span class="meta">      @login_required</span></span><br><span class="line">      <span class="function"><span class="keyword">def</span> <span class="title">add_to_cart</span><span class="params">(request, slug)</span>:</span></span><br><span class="line">         item = get_object_or_404(Item, slug=slug)</span><br><span class="line">         order_item, created = OrderItem.objects.get_or_create(</span><br><span class="line">            item=item, user=request.user, ordered=<span class="literal">False</span>)</span><br><span class="line">         order_qs = Order.objects.filter(user=request.user, ordered=<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line">         <span class="keyword">if</span> order_qs.exists():</span><br><span class="line">            order = order_qs[<span class="number">0</span>]</span><br><span class="line">            <span class="comment"># check if the order item in order</span></span><br><span class="line">            <span class="keyword">if</span> order.items.filter(item__slug=item.slug).exists():</span><br><span class="line">                  order_item.quantity += <span class="number">1</span></span><br><span class="line">                  order_item.save()</span><br><span class="line">                  messages.info(request, <span class="string">"This item quantity was updated."</span>)</span><br><span class="line">                  <span class="keyword">return</span> redirect(<span class="string">"core:order_summary"</span>)</span><br><span class="line"></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                  order.items.add(order_item)</span><br><span class="line"></span><br><span class="line">                  messages.info(request, <span class="string">"This item was added to your cart."</span>)</span><br><span class="line">                  <span class="keyword">return</span> redirect(<span class="string">"core:order_summary"</span>)</span><br><span class="line"></span><br><span class="line">         <span class="keyword">else</span>:</span><br><span class="line">            ordered_date = timezone.now()</span><br><span class="line">            order = Order.objects.create(</span><br><span class="line">                  user=request.user,</span><br><span class="line">                  ordered_date=ordered_date</span><br><span class="line">            )</span><br><span class="line">            order.items.add(order_item)</span><br><span class="line">            messages.info(request, <span class="string">"This item was added to your cart."</span>)</span><br><span class="line">            <span class="keyword">return</span> redirect(<span class="string">"core:order_summary"</span>)</span><br><span class="line"></span><br><span class="line">         <span class="keyword">return</span> redirect(<span class="string">"core:order_summary"</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># In view.py, import the method and add the path:</span></span><br><span class="line"></span><br><span class="line">    path(<span class="string">'remove-item-from-cart/&lt;slug&gt;/'</span>, remove_single_item_from_cart,</span><br><span class="line">      name=<span class="string">'remove_single_item_from_cart'</span>)</span><br></pre></td></tr></table></figure>
+<p><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">
+model=>operation: Models|past
+view=>operation: View|current
+templates=>operation: templates|past
+
+templates(right)->model(right)->view(right)</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script></p>
+
+      
+    </div>
+    
+    
+    
+
+      
+      <div>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:</strong>
+    Jovis Chuah
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link:</strong>
+    <a href="https://jovis9611.github.io/jovis_Blog/2020/06/12/2020/v_tut_DEcommerce/" title="Video Tut_ Project Ecommerce using Django Part 1">https://jovis9611.github.io/jovis_Blog/2020/06/12/2020/v_tut_DEcommerce/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice: </strong>
+    All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> unless stating additionally.
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/jovis_Blog/tags/Django/" rel="tag"><i class="fa fa-tag"></i> Django</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/jovis_Blog/2020/06/26/Embedded-Codepen-and-JsFiddle-in-Hexo/" rel="prev" title="Extensions of Hexo-Next">
+                Extensions of Hexo-Next <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+      <div id="sidebar-dimmer"></div>
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Jovis Chuah</p>
+              <p class="site-description motion-element" itemprop="description">You can Be Better than Yesterday</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/jovis_Blog/archives/%7C%7C%20archive">
+              
+                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/jovis_Blog/categories/index.html">
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">categories</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/jovis_Blog/tags/index.html">
+                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/jovis_Blog/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/yourname" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:yourname@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://instagram.com/yourname" target="_blank" title="Instagram">
+                      
+                        <i class="fa fa-fw fa-instagram"></i>Instagram</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Project-Configuration"><span class="nav-number">1.</span> <span class="nav-text">Project Configuration</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Project-Set-Up"><span class="nav-number">1.1.</span> <span class="nav-text">Project Set Up</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Integrated-the-sub-app-and-main-app"><span class="nav-number">1.2.</span> <span class="nav-text">Integrated the sub app and main app</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Display-home-html"><span class="nav-number">2.</span> <span class="nav-text">Display home.html</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Authendication-Function"><span class="nav-number">3.</span> <span class="nav-text">Authendication Function</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Display-item-from-Database-at-html"><span class="nav-number">4.</span> <span class="nav-text">Display item from Database at .html</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Order-Summary"><span class="nav-number">5.</span> <span class="nav-text">Order Summary</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Display-the-order-summary-page"><span class="nav-number">5.1.</span> <span class="nav-text">Display the order summary page</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Create-an-order-summary-table"><span class="nav-number">5.2.</span> <span class="nav-text">Create an order summary table</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Remove-and-add-single-item-from-cart"><span class="nav-number">5.3.</span> <span class="nav-text">Remove and add single item from cart</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jovis Chuah</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">3.2k</span>
+  
+</div>
+
+
+
+  
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+<div>
+<span id="timeDate">Loading days...</span><span id="times">Loading time...</span>
+<script>
+    var now = new Date();
+    function createtime() {
+        var grt= new Date("06/24/2020 00:00:00");
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "This blog has created "+dnum+" days ";
+        document.getElementById("times").innerHTML = hnum + " hours " + mnum + " minutes " + snum + " seconds";
+    }
+setInterval("createtime()",250);
+</script>
+</div>
+
+<!--
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+-->
+        
+<div class="busuanzi-count">
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/jovis_Blog/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/jovis_Blog/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/jovis_Blog/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/jovis_Blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/jovis_Blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/jovis_Blog/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/jovis_Blog/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/jovis_Blog/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/jovis_Blog/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/jovis_Blog/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/jovis_Blog/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/jovis_Blog/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: '3MgKaJIsLFtCUVSv0pXv1GoM-MdYXbMMI',
+        appKey: '3PpMQGOvQ5wMkKxHN61yLnQk',
+        lang: 'en',
+        placeholder: 'Drop your comment here',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/jovis_Blog/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+
+  
+
+  
+
+  
+  <style>
+    .copy-btn {
+      display: inline-block;
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 20px;
+      color: #333;
+      white-space: nowrap;
+      vertical-align: middle;
+      cursor: pointer;
+      background-color: #eee;
+      background-image: linear-gradient(#fcfcfc, #eee);
+      border: 1px solid #d5d5d5;
+      border-radius: 3px;
+      user-select: none;
+      outline: 0;
+    }
+
+    .highlight-wrap .copy-btn {
+      transition: opacity .3s ease-in-out;
+      opacity: 0;
+      padding: 2px 6px;
+      position: absolute;
+      right: 4px;
+      top: 8px;
+    }
+
+    .highlight-wrap:hover .copy-btn,
+    .highlight-wrap .copy-btn:focus {
+      opacity: 1
+    }
+
+    .highlight-wrap {
+      position: relative;
+    }
+  </style>
+  
+  <script>
+    $('.highlight').each(function (i, e) {
+      var $wrap = $('<div>').addClass('highlight-wrap')
+      $(e).after($wrap)
+      $wrap.append($('<button>').addClass('copy-btn').append('Copy').on('click', function (e) {
+        var code = $(this).parent().find('.code').find('.line').map(function (i, e) {
+          return $(e).text()
+        }).toArray().join('\n')
+        var ta = document.createElement('textarea')
+        document.body.appendChild(ta)
+        ta.style.position = 'absolute'
+        ta.style.top = '0px'
+        ta.style.left = '0px'
+        ta.value = code
+        ta.select()
+        ta.focus()
+        var result = document.execCommand('copy')
+        document.body.removeChild(ta)
+        
+        $(this).blur()
+      })).on('mouseleave', function (e) {
+        var $b = $(this).find('.copy-btn')
+        setTimeout(function () {
+          $b.text('Copy')
+        }, 300)
+      }).append(e)
+    })
+  </script>
+
+</body>
+</html>

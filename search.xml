@@ -18,19 +18,38 @@
       </tags>
   </entry>
   <entry>
-    <title>Interesting Enhancement Link</title>
-    <url>/jovis_Blog/2020/06/26/Interesting-Enhancement-Tool/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\jovis_Blog\assets\css\APlayer.min.css"><script src="\jovis_Blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Cmd-Enhancement"><a href="#Cmd-Enhancement" class="headerlink" title="Cmd Enhancement"></a>Cmd Enhancement</h1><p><a href="https://www.notion.so/jovisworkspace/Web-Page-Design-Front-End-1b6780d1d8574a6499b5247231e4917c#cfb7f0b99b0a4e9e88ca43b6e2033141" target="_blank" rel="noopener">zsh</a></p>
-<p><a href="https://www.notion.so/jovisworkspace/Web-Page-Design-Front-End-1b6780d1d8574a6499b5247231e4917c#6563afc8a918454b98bad1352f27c2ae" target="_blank" rel="noopener">How do personalize Window Cmd Prompt</a></p>
-<p><a href="https://www.notion.so/jovisworkspace/Web-Page-Design-Front-End-1b6780d1d8574a6499b5247231e4917c#a12c1757358746d095e75ff6f9a7e700" target="_blank" rel="noopener">How I can make the Window Cmd Prompt Better</a></p>
-<h1 id="Arduino"><a href="#Arduino" class="headerlink" title="Arduino"></a>Arduino</h1><p><a href="http://johnny-five.io/" target="_blank" rel="noopener">johny-five</a><br><a href="https://2017.stateofjs.com/2017/css/developers/" target="_blank" rel="noopener">The state of javascript at 2017</a></p>
+    <title>Web Development for Very  Beginner</title>
+    <url>/jovis_Blog/2020/06/26/Web-Development-for-very-Beginner/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\jovis_Blog\assets\css\APlayer.min.css"><script src="\jovis_Blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Website-and-Internet"><a href="#Website-and-Internet" class="headerlink" title="Website and Internet"></a>Website and Internet</h1><p>Before starting to program, you may wonder what relationship between Server and Client.</p>
+<p>We are the client to get the information through web browser. But behind that, we are requesting information from server. The requesting process may go through several route. <a href="https://www.networkworld.com/article/3532318/what-is-the-internet-backbone-and-how-it-works.html" target="_blank" rel="noopener">Internet Backbone</a></p>
+<p>You can try to trace the route with using cmd and input the following cmd.</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">tracert www.google.com</span><br></pre></td></tr></table></figure>
+<h1 id="Small-Basic-Website"><a href="#Small-Basic-Website" class="headerlink" title="Small Basic Website"></a>Small Basic Website</h1><p>A small basic website from youtube.<a href="https://www.youtube.com/watch?v=zxfhf-V4JFQ" target="_blank" rel="noopener">How To Make A Website Using HTML CSS And JavaScript Step By Step In 20 minutes</a></p>
+<p>You can debugging or modify element with open the HTML in your browser like Chrome or Firebox. After that, press ‘CTRL+Shift+I’ to open the developer tool. The details at <a href="https://www.youtube.com/watch?v=JZIWWcL964k" target="_blank" rel="noopener">Chrome devloper tool in 8 minutes ++</a></p>
+<h1 id="Before-Program-a-Website"><a href="#Before-Program-a-Website" class="headerlink" title="Before Program a Website"></a>Before Program a Website</h1><p>Before you start to program a website, <a href="https://www.youtube.com/watch?v=iogabydg2y0&amp;t=12s" target="_blank" rel="noopener">Web development Roadmap</a></p>
+<p>Next,you have to install an IDE and extension to cut short your developing time.</p>
+<h3 id="Ide"><a href="#Ide" class="headerlink" title="Ide"></a>Ide</h3><p><strong>Offline IDE</strong> \<br><a href="https://code.visualstudio.com/download" target="_blank" rel="noopener">Visual Studio Code</a>\<br><a href="https://www.sublimetext.com/3" target="_blank" rel="noopener">Sublime</a></p>
+<p><strong>Online IDE</strong>\<br><a href="https://codepen.io/" target="_blank" rel="noopener">Codepen</a>\<br><a href="https://jsfiddle.net/" target="_blank" rel="noopener">JsFiddle</a></p>
+<h3 id="Useful-Extension-for-Visual-Studio-Code"><a href="#Useful-Extension-for-Visual-Studio-Code" class="headerlink" title="Useful Extension for Visual Studio Code"></a>Useful Extension for Visual Studio Code</h3><p><a href="https://codeforgeek.com/best-visual-studio-code-extensions-web-development/" target="_blank" rel="noopener">15 Best Visual Studio Code Extensions For Web Development</a></p>
+<h3 id="Shortcut-to-Code-Faster-in-Visual-Studio-Code"><a href="#Shortcut-to-Code-Faster-in-Visual-Studio-Code" class="headerlink" title="Shortcut to Code Faster in Visual Studio Code"></a>Shortcut to Code Faster in Visual Studio Code</h3><p><a href="https://docs.emmet.io/cheat-sheet/" target="_blank" rel="noopener">Emmet Cheat Sheet</a>\<br><a href="https://jsmanifest.com/21-vscode-shortcuts-to-code-faster-and-funner/" target="_blank" rel="noopener">21 Vscode shortcut-Especially 19 to 21</a></p>
+<h1 id="Website-Programming-Language"><a href="#Website-Programming-Language" class="headerlink" title="Website Programming Language"></a>Website Programming Language</h1><p>You have to know what is HTML, CSS and Javascript to develop a basic website.</p>
+<p>HTML is to provide a basic structure of website. CSS is to formatting and decorate the website. Yet JS is to make website functionality and interated with user.</p>
+<h3 id="Learn-Html-in-10-minute"><a href="#Learn-Html-in-10-minute" class="headerlink" title="Learn Html in 10 minute"></a>Learn Html in 10 minute</h3><p>Open your IDE, and input ! then press ‘tab’. Lastly, open in ‘live server’ <a href="https://www.youtube.com/watch?v=wMmu_369n7c" target="_blank" rel="noopener">How do set up live server in Vscode?</a>. Your first web page was created. It preview at your default browser.</p>
+<p><a href="https://cdn.rawgit.com/hostinger/banners/2d7a9209/tutorials/pdf/The-Complete-HTML-Cheat-Sheet.pdf" target="_blank" rel="noopener">Html Cheatsheet</a></p>
+<h3 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h3><p><a href="https://www.youtube.com/watch?v=Tfjd5yzCaxk" target="_blank" rel="noopener">CSS Crash Course In 30 Minutes</a></p>
+<p><a href="https://cdn.rawgit.com/hostinger/banners/94941d64/tutorials/pdf/CSS-3-Cheatsheet.pdf" target="_blank" rel="noopener">CSS Cheat Sheet</a></p>
+<h3 id="Javascript"><a href="#Javascript" class="headerlink" title="Javascript"></a>Javascript</h3><p>JS is more like the backend languages. Example : Python, Java or C#. It included variable, control structure, array and other. The difference is the syntax.</p>
+<p><a href="https://ilovecoding.org/blog/js-cheatsheet" target="_blank" rel="noopener">JS Cheat Sheet-Beginner</a>\<br><a href="https://blog.templatetoaster.com/javascript-cheat-sheet/" target="_blank" rel="noopener">JS-Intermediate</a></p>
+<p><a href="https://www.youtube.com/watch?v=DZFugzFg4Ak" target="_blank" rel="noopener">Jquery crash course in 30 minutes</a></p>
+<p><a href="https://makeawebsitehub.com/wp-content/uploads/2015/09/jquery-mega-cheat-sheet-Printable.pdf" target="_blank" rel="noopener">Jquery Cheetsheet</a></p>
+<p><a href="https://oscarotero.com/jquery/" target="_blank" rel="noopener">Interative Jquery Cheat Sheet</a></p>
+<h1 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h1><h3 id="Youtube-Channel"><a href="#Youtube-Channel" class="headerlink" title="Youtube Channel"></a>Youtube Channel</h3><p><a href="https://www.youtube.com/channel/UCDCHcqyeQgJ-jVSd6VJkbCw/featured" target="_blank" rel="noopener">CodeStackr</a></p>
 ]]></content>
       <categories>
-        <category>Enhancement</category>
+        <category>Web</category>
       </categories>
       <tags>
-        <tag>Os</tag>
-        <tag>Cmd</tag>
+        <tag>Resources</tag>
       </tags>
   </entry>
   <entry>
@@ -76,38 +95,19 @@
       </categories>
   </entry>
   <entry>
-    <title>Web Development for Very  Beginner</title>
-    <url>/jovis_Blog/2020/06/26/Web-Development-for-very-Beginner/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\jovis_Blog\assets\css\APlayer.min.css"><script src="\jovis_Blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Website-and-Internet"><a href="#Website-and-Internet" class="headerlink" title="Website and Internet"></a>Website and Internet</h1><p>Before starting to program, you may wonder what relationship between Server and Client.</p>
-<p>We are the client to get the information through web browser. But behind that, we are requesting information from server. The requesting process may go through several route. <a href="https://www.networkworld.com/article/3532318/what-is-the-internet-backbone-and-how-it-works.html" target="_blank" rel="noopener">Internet Backbone</a></p>
-<p>You can try to trace the route with using cmd and input the following cmd.</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">tracert www.google.com</span><br></pre></td></tr></table></figure>
-<h1 id="Small-Basic-Website"><a href="#Small-Basic-Website" class="headerlink" title="Small Basic Website"></a>Small Basic Website</h1><p>A small basic website from youtube.<a href="https://www.youtube.com/watch?v=zxfhf-V4JFQ" target="_blank" rel="noopener">How To Make A Website Using HTML CSS And JavaScript Step By Step In 20 minutes</a></p>
-<p>You can debugging or modify element with open the HTML in your browser like Chrome or Firebox. After that, press ‘CTRL+Shift+I’ to open the developer tool. The details at <a href="https://www.youtube.com/watch?v=JZIWWcL964k" target="_blank" rel="noopener">Chrome devloper tool in 8 minutes ++</a></p>
-<h1 id="Before-Program-a-Website"><a href="#Before-Program-a-Website" class="headerlink" title="Before Program a Website"></a>Before Program a Website</h1><p>Before you start to program a website, <a href="https://www.youtube.com/watch?v=iogabydg2y0&amp;t=12s" target="_blank" rel="noopener">Web development Roadmap</a></p>
-<p>Next,you have to install an IDE and extension to cut short your developing time.</p>
-<h3 id="Ide"><a href="#Ide" class="headerlink" title="Ide"></a>Ide</h3><p><strong>Offline IDE</strong> \<br><a href="https://code.visualstudio.com/download" target="_blank" rel="noopener">Visual Studio Code</a>\<br><a href="https://www.sublimetext.com/3" target="_blank" rel="noopener">Sublime</a></p>
-<p><strong>Online IDE</strong>\<br><a href="https://codepen.io/" target="_blank" rel="noopener">Codepen</a>\<br><a href="https://jsfiddle.net/" target="_blank" rel="noopener">JsFiddle</a></p>
-<h3 id="Useful-Extension-for-Visual-Studio-Code"><a href="#Useful-Extension-for-Visual-Studio-Code" class="headerlink" title="Useful Extension for Visual Studio Code"></a>Useful Extension for Visual Studio Code</h3><p><a href="https://codeforgeek.com/best-visual-studio-code-extensions-web-development/" target="_blank" rel="noopener">15 Best Visual Studio Code Extensions For Web Development</a></p>
-<h3 id="Shortcut-to-Code-Faster-in-Visual-Studio-Code"><a href="#Shortcut-to-Code-Faster-in-Visual-Studio-Code" class="headerlink" title="Shortcut to Code Faster in Visual Studio Code"></a>Shortcut to Code Faster in Visual Studio Code</h3><p><a href="https://docs.emmet.io/cheat-sheet/" target="_blank" rel="noopener">Emmet Cheat Sheet</a>\<br><a href="https://jsmanifest.com/21-vscode-shortcuts-to-code-faster-and-funner/" target="_blank" rel="noopener">21 Vscode shortcut-Especially 19 to 21</a></p>
-<h1 id="Website-Programming-Language"><a href="#Website-Programming-Language" class="headerlink" title="Website Programming Language"></a>Website Programming Language</h1><p>You have to know what is HTML, CSS and Javascript to develop a basic website.</p>
-<p>HTML is to provide a basic structure of website. CSS is to formatting and decorate the website. Yet JS is to make website functionality and interated with user.</p>
-<h3 id="Learn-Html-in-10-minute"><a href="#Learn-Html-in-10-minute" class="headerlink" title="Learn Html in 10 minute"></a>Learn Html in 10 minute</h3><p>Open your IDE, and input ! then press ‘tab’. Lastly, open in ‘live server’ <a href="https://www.youtube.com/watch?v=wMmu_369n7c" target="_blank" rel="noopener">How do set up live server in Vscode?</a>. Your first web page was created. It preview at your default browser.</p>
-<p><a href="https://cdn.rawgit.com/hostinger/banners/2d7a9209/tutorials/pdf/The-Complete-HTML-Cheat-Sheet.pdf" target="_blank" rel="noopener">Html Cheatsheet</a></p>
-<h3 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h3><p><a href="https://www.youtube.com/watch?v=Tfjd5yzCaxk" target="_blank" rel="noopener">CSS Crash Course In 30 Minutes</a></p>
-<p><a href="https://cdn.rawgit.com/hostinger/banners/94941d64/tutorials/pdf/CSS-3-Cheatsheet.pdf" target="_blank" rel="noopener">CSS Cheat Sheet</a></p>
-<h3 id="Javascript"><a href="#Javascript" class="headerlink" title="Javascript"></a>Javascript</h3><p>JS is more like the backend languages. Example : Python, Java or C#. It included variable, control structure, array and other. The difference is the syntax.</p>
-<p><a href="https://ilovecoding.org/blog/js-cheatsheet" target="_blank" rel="noopener">JS Cheat Sheet-Beginner</a>\<br><a href="https://blog.templatetoaster.com/javascript-cheat-sheet/" target="_blank" rel="noopener">JS-Intermediate</a></p>
-<p><a href="https://www.youtube.com/watch?v=DZFugzFg4Ak" target="_blank" rel="noopener">Jquery crash course in 30 minutes</a></p>
-<p><a href="https://makeawebsitehub.com/wp-content/uploads/2015/09/jquery-mega-cheat-sheet-Printable.pdf" target="_blank" rel="noopener">Jquery Cheetsheet</a></p>
-<p><a href="https://oscarotero.com/jquery/" target="_blank" rel="noopener">Interative Jquery Cheat Sheet</a></p>
-<h1 id="Resources"><a href="#Resources" class="headerlink" title="Resources"></a>Resources</h1><h3 id="Youtube-Channel"><a href="#Youtube-Channel" class="headerlink" title="Youtube Channel"></a>Youtube Channel</h3><p><a href="https://www.youtube.com/channel/UCDCHcqyeQgJ-jVSd6VJkbCw/featured" target="_blank" rel="noopener">CodeStackr</a></p>
+    <title>Interesting Enhancement Link</title>
+    <url>/jovis_Blog/2020/06/26/Interesting-Enhancement-Tool/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\jovis_Blog\assets\css\APlayer.min.css"><script src="\jovis_Blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Cmd-Enhancement"><a href="#Cmd-Enhancement" class="headerlink" title="Cmd Enhancement"></a>Cmd Enhancement</h1><p><a href="https://www.notion.so/jovisworkspace/Web-Page-Design-Front-End-1b6780d1d8574a6499b5247231e4917c#cfb7f0b99b0a4e9e88ca43b6e2033141" target="_blank" rel="noopener">zsh</a></p>
+<p><a href="https://www.notion.so/jovisworkspace/Web-Page-Design-Front-End-1b6780d1d8574a6499b5247231e4917c#6563afc8a918454b98bad1352f27c2ae" target="_blank" rel="noopener">How do personalize Window Cmd Prompt</a></p>
+<p><a href="https://www.notion.so/jovisworkspace/Web-Page-Design-Front-End-1b6780d1d8574a6499b5247231e4917c#a12c1757358746d095e75ff6f9a7e700" target="_blank" rel="noopener">How I can make the Window Cmd Prompt Better</a></p>
+<h1 id="Arduino"><a href="#Arduino" class="headerlink" title="Arduino"></a>Arduino</h1><p><a href="http://johnny-five.io/" target="_blank" rel="noopener">johny-five</a><br><a href="https://2017.stateofjs.com/2017/css/developers/" target="_blank" rel="noopener">The state of javascript at 2017</a></p>
 ]]></content>
       <categories>
-        <category>Web</category>
+        <category>Enhancement</category>
       </categories>
       <tags>
-        <tag>Resources</tag>
+        <tag>Os</tag>
+        <tag>Cmd</tag>
       </tags>
   </entry>
   <entry>
