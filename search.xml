@@ -18,6 +18,64 @@
       </tags>
   </entry>
   <entry>
+    <title>Interesting Enhancement Link</title>
+    <url>/jovis_Blog/2020/06/26/Interesting-Enhancement-Tool/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\jovis_Blog\assets\css\APlayer.min.css"><script src="\jovis_Blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Cmd-Enhancement"><a href="#Cmd-Enhancement" class="headerlink" title="Cmd Enhancement"></a>Cmd Enhancement</h1><p><a href="https://www.notion.so/jovisworkspace/Web-Page-Design-Front-End-1b6780d1d8574a6499b5247231e4917c#cfb7f0b99b0a4e9e88ca43b6e2033141" target="_blank" rel="noopener">zsh</a></p>
+<p><a href="https://www.notion.so/jovisworkspace/Web-Page-Design-Front-End-1b6780d1d8574a6499b5247231e4917c#6563afc8a918454b98bad1352f27c2ae" target="_blank" rel="noopener">How do personalize Window Cmd Prompt</a></p>
+<p><a href="https://www.notion.so/jovisworkspace/Web-Page-Design-Front-End-1b6780d1d8574a6499b5247231e4917c#a12c1757358746d095e75ff6f9a7e700" target="_blank" rel="noopener">How I can make the Window Cmd Prompt Better</a></p>
+<h1 id="Arduino"><a href="#Arduino" class="headerlink" title="Arduino"></a>Arduino</h1><p><a href="http://johnny-five.io/" target="_blank" rel="noopener">johny-five</a><br><a href="https://2017.stateofjs.com/2017/css/developers/" target="_blank" rel="noopener">The state of javascript at 2017</a></p>
+]]></content>
+      <categories>
+        <category>Enhancement</category>
+      </categories>
+      <tags>
+        <tag>Os</tag>
+        <tag>Cmd</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Web Development for Intermediate- React.js</title>
+    <url>/jovis_Blog/2020/06/26/Intermediate/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\jovis_Blog\assets\css\APlayer.min.css"><script src="\jovis_Blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Intermediate"><a href="#Intermediate" class="headerlink" title="Intermediate"></a>Intermediate</h1><p><a href="https://codeburst.io/declarative-vs-imperative-programming-a8a7c93d9ad2" target="_blank" rel="noopener">Jquery.js vs React.js</a></p>
+<h1 id="React-js"><a href="#React-js" class="headerlink" title="React.js"></a>React.js</h1><p>It is an open-source JavaScript library for building user interfaces.</p>
+<h3 id="Before-starting-to-build-a-React-web-app"><a href="#Before-starting-to-build-a-React-web-app" class="headerlink" title="Before starting to build a React web app:"></a>Before starting to build a React web app:</h3><ol>
+<li><p>Install Node.js <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">DownloadLink</a>. Node.js is sharable js.Package. You can reuse the code from other coder through npm install the package.</p>
+</li>
+<li><p>Run the following cmd in visual studio terminal.</p>
+</li>
+</ol>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">#Project Setting</span><br><span class="line">&gt;<span class="built_in">cd</span> project directory</span><br><span class="line">&gt;npm init # is to generate package.json. The .json is like a project setting file.</span><br><span class="line"></span><br><span class="line"># Install Package</span><br><span class="line"></span><br><span class="line"># Below <span class="built_in">cmd</span> is install <span class="built_in">at</span> this project</span><br><span class="line">&gt; npm install lodash</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># Below <span class="built_in">cmd</span> is install live server <span class="built_in">at</span> global</span><br><span class="line">&gt;npm install -g live-server</span><br><span class="line"></span><br><span class="line"># Browserify. lets you require('modules') <span class="keyword">in</span> the browser by bundling up all of your dependencies. Install Documentation</span><br><span class="line">&gt;npm install -g browserify</span><br><span class="line"></span><br><span class="line">&gt;npm install -g create-react-app</span><br></pre></td></tr></table></figure>
+<h3 id="Start-to-make-your-first-React-app"><a href="#Start-to-make-your-first-React-app" class="headerlink" title="Start to make your first React-app"></a>Start to make your first React-app</h3><ol>
+<li>Input the following cmd in your terminal:</li>
+</ol>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">&gt;<span class="built_in">cd</span> project_folder</span><br><span class="line">&gt;create-react-app projectname</span><br></pre></td></tr></table></figure>
+<p>Example File Structure of React app</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">my-app&#x2F;</span><br><span class="line">README.md</span><br><span class="line">node_modules&#x2F;</span><br><span class="line">package.json------------&gt; Project setting</span><br><span class="line">public&#x2F;</span><br><span class="line">    index.html----------&gt; Main Html</span><br><span class="line">    favicon.ico---------&gt; Icon of website</span><br><span class="line">src&#x2F;</span><br><span class="line">    App.css</span><br><span class="line">    App.js</span><br><span class="line">    App.test.js</span><br><span class="line">    index.css</span><br><span class="line">    index.js</span><br><span class="line">    logo.svg</span><br></pre></td></tr></table></figure>
+<ol>
+<li>After you have downloaded the node.js, run the cmd below in terminal.</li>
+</ol>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">&gt;npm <span class="built_in">start</span></span><br></pre></td></tr></table></figure>
+<ol>
+<li>You have created your first React app.</li>
+</ol>
+<h1 id="Javascript-—-ES6"><a href="#Javascript-—-ES6" class="headerlink" title="Javascript — ES6"></a>Javascript — ES6</h1><p>ES6 is the new Javascript language. It make code more easier to look and manage.</p>
+<h5 id="Var-Const-and-Let"><a href="#Var-Const-and-Let" class="headerlink" title="Var, Const and Let"></a>Var, Const and Let</h5><p>Var and let are both used for variable declaration in javascript but the difference between them is that var is function scoped and let is block scoped. Yet Const is fixed variable. (From Google)</p>
+<p>CAUTION: Const is no allow user modify variable. But let and var is able to modify after the variable was declare.</p>
+<p>Let variable:</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> player = <span class="string">"bobby"</span>;</span><br><span class="line"><span class="keyword">let</span> exp = <span class="number">100</span>;</span><br><span class="line"><span class="keyword">let</span> wizardlevel = <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (exp &gt; <span class="number">90</span>) &#123;</span><br><span class="line">  <span class="keyword">let</span> wizardlevel = <span class="literal">true</span>;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"inside"</span>, wizardlevel);</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">"outside"</span>, wizardlevel);</span><br></pre></td></tr></table></figure>
+<p>Const variable</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> obj = &#123;</span><br><span class="line">  player: <span class="string">"bobby"</span>,</span><br><span class="line">  exp: <span class="number">100</span>,</span><br><span class="line">  wLevel: <span class="literal">false</span>,</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">//Modify obj propertues</span></span><br><span class="line">obj.player = <span class="string">"can"</span>;</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(obj.player);</span><br></pre></td></tr></table></figure>
+<h4 id="Destructing"><a href="#Destructing" class="headerlink" title="Destructing"></a>Destructing</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> player=obj.player</span><br><span class="line"><span class="keyword">const</span> exp=obj.exp</span><br><span class="line"><span class="keyword">let</span> wlevel=obj.wlevel</span><br><span class="line"><span class="comment">//minimize code above as below:</span></span><br><span class="line"><span class="keyword">const</span>&#123;player,exp&#125;=obj;</span><br><span class="line"><span class="keyword">let</span>&#123;wlevel&#125;=obj;</span><br><span class="line"></span><br><span class="line"><span class="comment">//obj properties</span></span><br><span class="line"><span class="keyword">const</span> name=<span class="string">'john'</span></span><br><span class="line"><span class="keyword">const</span> obj=&#123;</span><br><span class="line">[name]:<span class="string">'Hello'</span>,</span><br><span class="line">[<span class="string">'ray'</span>+<span class="string">'smitch'</span>]:<span class="string">'hihi'</span>,</span><br><span class="line">[<span class="number">1</span>*<span class="number">2</span>]:<span class="string">'hihi'</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> a=<span class="string">'simon'</span></span><br><span class="line"><span class="keyword">const</span> b=<span class="literal">true</span></span><br><span class="line"><span class="keyword">const</span> c=&#123;&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//normally</span></span><br><span class="line"><span class="keyword">const</span> obj=&#123;</span><br><span class="line">a:a,</span><br><span class="line">b:b,</span><br><span class="line">c:c&#125;</span><br><span class="line">/It can minimize <span class="keyword">as</span> below</span><br><span class="line"><span class="keyword">const</span> obj=&#123;a,b,c&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="Template-String"><a href="#Template-String" class="headerlink" title="Template String"></a>Template String</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> name = <span class="string">"sally"</span>;</span><br><span class="line"><span class="keyword">const</span> age = <span class="number">34</span>;</span><br><span class="line"><span class="keyword">const</span> pet = <span class="string">"horse"</span>;</span><br><span class="line"><span class="comment">//const greeting="Hello"+name+"you seem to be greeting"+greeting+'!'</span></span><br><span class="line"><span class="comment">//backtip ` key isnt quote'</span></span><br><span class="line"><span class="keyword">const</span> greetingBest = <span class="string">`hello <span class="subst">$&#123;name&#125;</span> you seem to be <span class="subst">$&#123;</span></span></span><br><span class="line"><span class="string"><span class="subst">  age - <span class="number">10</span></span></span></span><br><span class="line"><span class="string"><span class="subst">&#125;</span>.What a lovely <span class="subst">$&#123;pet&#125;</span> you have!`</span>;</span><br></pre></td></tr></table></figure>
+<h4 id="Function"><a href="#Function" class="headerlink" title="Function"></a>Function</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">greet</span>(<span class="params">name = <span class="string">""</span>, age = <span class="number">30</span>, pet = <span class="string">""</span></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="string">`hello <span class="subst">$&#123;name&#125;</span> you seem to be <span class="subst">$&#123;</span></span></span><br><span class="line"><span class="string"><span class="subst">    age - <span class="number">10</span></span></span></span><br><span class="line"><span class="string"><span class="subst">  &#125;</span>.What a lovely <span class="subst">$&#123;pet&#125;</span> you have!`</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="Symbol"><a href="#Symbol" class="headerlink" title="Symbol"></a>Symbol</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">let</span> sym1=<span class="built_in">Symbol</span>();</span><br><span class="line"><span class="keyword">let</span> sym2=<span class="built_in">Symbol</span>(<span class="string">'foo'</span>);</span><br><span class="line"><span class="keyword">let</span> sym3=<span class="built_in">Symbol</span>(<span class="string">'foo'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//run in chrome</span></span><br><span class="line">sym2===sym3 -&gt; is <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<h4 id="Arrow"><a href="#Arrow" class="headerlink" title="Arrow"></a>Arrow</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">add</span>(<span class="params">a,b</span>)</span>&#123;</span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> a+b;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//change it to</span></span><br><span class="line"><span class="keyword">const</span> add()=&gt;a+b;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Web Development for Very  Beginner</title>
     <url>/jovis_Blog/2020/06/26/Web-Development-for-very-Beginner/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\jovis_Blog\assets\css\APlayer.min.css"><script src="\jovis_Blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Website-and-Internet"><a href="#Website-and-Internet" class="headerlink" title="Website and Internet"></a>Website and Internet</h1><p>Before starting to program, you may wonder what relationship between Server and Client.</p>
@@ -53,64 +111,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Web Development for Intermediate- React.js</title>
-    <url>/jovis_Blog/2020/06/26/Intermediate/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\jovis_Blog\assets\css\APlayer.min.css"><script src="\jovis_Blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Intermediate"><a href="#Intermediate" class="headerlink" title="Intermediate"></a>Intermediate</h1><p><a href="https://codeburst.io/declarative-vs-imperative-programming-a8a7c93d9ad2" target="_blank" rel="noopener">Jquery.js vs React.js</a></p>
-<h1 id="React-js"><a href="#React-js" class="headerlink" title="React.js"></a>React.js</h1><p>It is an open-source JavaScript library for building user interfaces.</p>
-<h3 id="Before-starting-to-build-a-React-web-app"><a href="#Before-starting-to-build-a-React-web-app" class="headerlink" title="Before starting to build a React web app:"></a>Before starting to build a React web app:</h3><ol>
-<li><p>Install Node.js <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">DownloadLink</a>. Node.js is sharable js.Package. You can reuse the code from other coder through npm install the package.</p>
-</li>
-<li><p>Run the following cmd in visual studio terminal.</p>
-</li>
-</ol>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">#Project Setting</span><br><span class="line">&gt;<span class="built_in">cd</span> project directory</span><br><span class="line">&gt;npm init # is to generate package.json. The .json is like a project setting file.</span><br><span class="line"></span><br><span class="line"># Install Package</span><br><span class="line"></span><br><span class="line"># Below <span class="built_in">cmd</span> is install <span class="built_in">at</span> this project</span><br><span class="line">&gt; npm install lodash</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"># Below <span class="built_in">cmd</span> is install live server <span class="built_in">at</span> global</span><br><span class="line">&gt;npm install -g live-server</span><br><span class="line"></span><br><span class="line"># Browserify. lets you require('modules') <span class="keyword">in</span> the browser by bundling up all of your dependencies. Install Documentation</span><br><span class="line">&gt;npm install -g browserify</span><br><span class="line"></span><br><span class="line">&gt;npm install -g create-react-app</span><br></pre></td></tr></table></figure>
-<h3 id="Start-to-make-your-first-React-app"><a href="#Start-to-make-your-first-React-app" class="headerlink" title="Start to make your first React-app"></a>Start to make your first React-app</h3><ol>
-<li>Input the following cmd in your terminal:</li>
-</ol>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">&gt;<span class="built_in">cd</span> project_folder</span><br><span class="line">&gt;create-react-app projectname</span><br></pre></td></tr></table></figure>
-<p>Example File Structure of React app</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">my-app&#x2F;</span><br><span class="line">README.md</span><br><span class="line">node_modules&#x2F;</span><br><span class="line">package.json------------&gt; Project setting</span><br><span class="line">public&#x2F;</span><br><span class="line">    index.html----------&gt; Main Html</span><br><span class="line">    favicon.ico---------&gt; Icon of website</span><br><span class="line">src&#x2F;</span><br><span class="line">    App.css</span><br><span class="line">    App.js</span><br><span class="line">    App.test.js</span><br><span class="line">    index.css</span><br><span class="line">    index.js</span><br><span class="line">    logo.svg</span><br></pre></td></tr></table></figure>
-<ol>
-<li>After you have downloaded the node.js, run the cmd below in terminal.</li>
-</ol>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">&gt;npm <span class="built_in">start</span></span><br></pre></td></tr></table></figure>
-<ol>
-<li>You have created your first React app.</li>
-</ol>
-<h3 id="Javascript-—-ES6"><a href="#Javascript-—-ES6" class="headerlink" title="Javascript — ES6"></a>Javascript — ES6</h3><p>ES6 is the new Javascript language. It make code more easier to look and manage.</p>
-<h5 id="Var-Const-and-Let"><a href="#Var-Const-and-Let" class="headerlink" title="Var, Const and Let"></a>Var, Const and Let</h5><p>Var and let are both used for variable declaration in javascript but the difference between them is that var is function scoped and let is block scoped. Yet Const is fixed variable. (From Google)</p>
-<p>CAUTION: Const is no allow user modify variable. But let and var is able to modify after the variable was declare.</p>
-<p>Let variable:</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> player = <span class="string">"bobby"</span>;</span><br><span class="line"><span class="keyword">let</span> exp = <span class="number">100</span>;</span><br><span class="line"><span class="keyword">let</span> wizardlevel = <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> (exp &gt; <span class="number">90</span>) &#123;</span><br><span class="line">  <span class="keyword">let</span> wizardlevel = <span class="literal">true</span>;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">"inside"</span>, wizardlevel);</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">"outside"</span>, wizardlevel);</span><br></pre></td></tr></table></figure>
-<p>Const variable</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> obj = &#123;</span><br><span class="line">  player: <span class="string">"bobby"</span>,</span><br><span class="line">  exp: <span class="number">100</span>,</span><br><span class="line">  wLevel: <span class="literal">false</span>,</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">//Modify obj propertues</span></span><br><span class="line">obj.player = <span class="string">"can"</span>;</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(obj.player);</span><br></pre></td></tr></table></figure>
-<h4 id="Destructing"><a href="#Destructing" class="headerlink" title="Destructing"></a>Destructing</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> player=obj.player</span><br><span class="line"><span class="keyword">const</span> exp=obj.exp</span><br><span class="line"><span class="keyword">let</span> wlevel=obj.wlevel</span><br><span class="line"><span class="comment">//minimize code above as below:</span></span><br><span class="line"><span class="keyword">const</span>&#123;player,exp&#125;=obj;</span><br><span class="line"><span class="keyword">let</span>&#123;wlevel&#125;=obj;</span><br><span class="line"></span><br><span class="line"><span class="comment">//obj properties</span></span><br><span class="line"><span class="keyword">const</span> name=<span class="string">'john'</span></span><br><span class="line"><span class="keyword">const</span> obj=&#123;</span><br><span class="line">[name]:<span class="string">'Hello'</span>,</span><br><span class="line">[<span class="string">'ray'</span>+<span class="string">'smitch'</span>]:<span class="string">'hihi'</span>,</span><br><span class="line">[<span class="number">1</span>*<span class="number">2</span>]:<span class="string">'hihi'</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> a=<span class="string">'simon'</span></span><br><span class="line"><span class="keyword">const</span> b=<span class="literal">true</span></span><br><span class="line"><span class="keyword">const</span> c=&#123;&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//normally</span></span><br><span class="line"><span class="keyword">const</span> obj=&#123;</span><br><span class="line">a:a,</span><br><span class="line">b:b,</span><br><span class="line">c:c&#125;</span><br><span class="line">/It can minimize <span class="keyword">as</span> below</span><br><span class="line"><span class="keyword">const</span> obj=&#123;a,b,c&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="Template-String"><a href="#Template-String" class="headerlink" title="Template String"></a>Template String</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> name = <span class="string">"sally"</span>;</span><br><span class="line"><span class="keyword">const</span> age = <span class="number">34</span>;</span><br><span class="line"><span class="keyword">const</span> pet = <span class="string">"horse"</span>;</span><br><span class="line"><span class="comment">//const greeting="Hello"+name+"you seem to be greeting"+greeting+'!'</span></span><br><span class="line"><span class="comment">//backtip ` key isnt quote'</span></span><br><span class="line"><span class="keyword">const</span> greetingBest = <span class="string">`hello <span class="subst">$&#123;name&#125;</span> you seem to be <span class="subst">$&#123;</span></span></span><br><span class="line"><span class="string"><span class="subst">  age - <span class="number">10</span></span></span></span><br><span class="line"><span class="string"><span class="subst">&#125;</span>.What a lovely <span class="subst">$&#123;pet&#125;</span> you have!`</span>;</span><br></pre></td></tr></table></figure>
-<h4 id="Function"><a href="#Function" class="headerlink" title="Function"></a>Function</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">greet</span>(<span class="params">name = <span class="string">""</span>, age = <span class="number">30</span>, pet = <span class="string">""</span></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="string">`hello <span class="subst">$&#123;name&#125;</span> you seem to be <span class="subst">$&#123;</span></span></span><br><span class="line"><span class="string"><span class="subst">    age - <span class="number">10</span></span></span></span><br><span class="line"><span class="string"><span class="subst">  &#125;</span>.What a lovely <span class="subst">$&#123;pet&#125;</span> you have!`</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="Symbol"><a href="#Symbol" class="headerlink" title="Symbol"></a>Symbol</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">let</span> sym1=<span class="built_in">Symbol</span>();</span><br><span class="line"><span class="keyword">let</span> sym2=<span class="built_in">Symbol</span>(<span class="string">'foo'</span>);</span><br><span class="line"><span class="keyword">let</span> sym3=<span class="built_in">Symbol</span>(<span class="string">'foo'</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//run in chrome</span></span><br><span class="line">sym2===sym3 -&gt; is <span class="literal">false</span></span><br></pre></td></tr></table></figure>
-<h4 id="Arrow"><a href="#Arrow" class="headerlink" title="Arrow"></a>Arrow</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">add</span>(<span class="params">a,b</span>)</span>&#123;</span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> a+b;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//change it to</span></span><br><span class="line"><span class="keyword">const</span> add()=&gt;a+b;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Web</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Interesting Enhancement Link</title>
-    <url>/jovis_Blog/2020/06/26/Interesting-Enhancement-Tool/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\jovis_Blog\assets\css\APlayer.min.css"><script src="\jovis_Blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Cmd-Enhancement"><a href="#Cmd-Enhancement" class="headerlink" title="Cmd Enhancement"></a>Cmd Enhancement</h1><p><a href="https://www.notion.so/jovisworkspace/Web-Page-Design-Front-End-1b6780d1d8574a6499b5247231e4917c#cfb7f0b99b0a4e9e88ca43b6e2033141" target="_blank" rel="noopener">zsh</a></p>
-<p><a href="https://www.notion.so/jovisworkspace/Web-Page-Design-Front-End-1b6780d1d8574a6499b5247231e4917c#6563afc8a918454b98bad1352f27c2ae" target="_blank" rel="noopener">How do personalize Window Cmd Prompt</a></p>
-<p><a href="https://www.notion.so/jovisworkspace/Web-Page-Design-Front-End-1b6780d1d8574a6499b5247231e4917c#a12c1757358746d095e75ff6f9a7e700" target="_blank" rel="noopener">How I can make the Window Cmd Prompt Better</a></p>
-<h1 id="Arduino"><a href="#Arduino" class="headerlink" title="Arduino"></a>Arduino</h1><p><a href="http://johnny-five.io/" target="_blank" rel="noopener">johny-five</a><br><a href="https://2017.stateofjs.com/2017/css/developers/" target="_blank" rel="noopener">The state of javascript at 2017</a></p>
-]]></content>
-      <categories>
-        <category>Enhancement</category>
-      </categories>
-      <tags>
-        <tag>Os</tag>
-        <tag>Cmd</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Website Development Resources</title>
     <url>/jovis_Blog/2020/06/26/Website-Development-Resources/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\jovis_Blog\assets\css\APlayer.min.css"><script src="\jovis_Blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Useful-References-for-develop-a-website"><a href="#Useful-References-for-develop-a-website" class="headerlink" title="Useful References for develop a website"></a>Useful References for develop a website</h1><p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress" target="_blank" rel="noopener">html doc</a>\<br> <a href="https://caniuse.com/" target="_blank" rel="noopener">Can I Use?</a>. Browser support tables for modern web technologies.\<br><a href="http://youmightnotneedjquery.com/" target="_blank" rel="noopener">Jquery Cheat Sheet</a></p>
@@ -140,11 +140,58 @@
       </tags>
   </entry>
   <entry>
-    <title>Learnt from Hotel Demanding Note</title>
-    <url>/jovis_Blog/2020/06/28/hotel-demanding-ds/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\jovis_Blog\assets\css\APlayer.min.css"><script src="\jovis_Blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>The dataset analysis are all done in Jupyter notebook.</p>
-<h1 id="Data-Preprocessing"><a href="#Data-Preprocessing" class="headerlink" title="Data Preprocessing"></a>Data Preprocessing</h1><h3 id="Data-Understanding"><a href="#Data-Understanding" class="headerlink" title="Data Understanding"></a>Data Understanding</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"></span><br><span class="line">ds=pd.read_csv(<span class="string">'location of csv file'</span>)</span><br><span class="line">ds.head()</span><br><span class="line">ds.describe()</span><br><span class="line">ds.columns</span><br><span class="line">ds.shape</span><br></pre></td></tr></table></figure>
-<p>++ display() is a syntax, use for display dataframe as table in Jupyter.</p>
+    <title>Build Your Blog in 10 Minutes using Hexo+Github</title>
+    <url>/jovis_Blog/2020/07/02/minutes-1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\jovis_Blog\assets\css\APlayer.min.css"><script src="\jovis_Blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h1><ol>
+<li>Install node.js from <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">download link</a></li>
+<li>Creat a new folder</li>
+<li><p>Open cmd (Window Terminal)</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">&gt;<span class="built_in">cd</span> new_folder_dir</span><br><span class="line">&gt;npm install -g hexo-cli</span><br><span class="line">&gt;hexo init blog_folder_name</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Write your first post</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">&gt;hexo new test_my_site</span><br><span class="line"></span><br><span class="line">&gt;hexo g</span><br><span class="line"></span><br><span class="line">&gt;hexo s</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Open browser and input “localhost:4000”</p>
+</li>
+</ol>
+<p>================To be continue==========================</p>
+]]></content>
+      <categories>
+        <category>enhancement</category>
+      </categories>
+      <tags>
+        <tag>web</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Learn basic of github in 10 Minutes</title>
+    <url>/jovis_Blog/2020/07/01/minutes/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\jovis_Blog\assets\css\APlayer.min.css"><script src="\jovis_Blog\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>This page is going to introduce how do push your current existingh project in local to github.</p>
+<h1 id="Initial-Step"><a href="#Initial-Step" class="headerlink" title="Initial Step"></a>Initial Step</h1><ol>
+<li>Register an account at github.</li>
+<li>Download git from <a href="https://git-scm.com/downloads" target="_blank" rel="noopener">git</a></li>
+<li>Download git desktop versison (optional) <a href="https://desktop.github.com/" target="_blank" rel="noopener">git desktop version</a><br>First of all, you need an github account and then have to create a github respitory.</li>
+<li><p>After downloaded git, open command prompt and input following cmd.</p>
+<p> ‘’’cmd</p>
+<pre><code> &gt;git config --global user.name &quot;yourname&quot;
+ &gt;git config --global user.email &quot;youremail@example.com&quot;
+</code></pre><p> ‘’’</p>
+</li>
+<li>Add SSH key. Please refer the folllowing link:<br><a href="https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account" target="_blank" rel="noopener">https://help.github.com/en/enterprise/2.15/user/articles/adding-a-new-ssh-key-to-your-github-account</a></li>
+</ol>
+<h1 id="Add-Project-into-Existing-Github-Respitory"><a href="#Add-Project-into-Existing-Github-Respitory" class="headerlink" title="Add Project into Existing Github Respitory"></a>Add Project into Existing Github Respitory</h1><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">&gt;<span class="built_in">cd</span> project_directory</span><br><span class="line">&gt;git init </span><br><span class="line">&gt;git add .</span><br><span class="line">&gt;git commit -m 'add all files'</span><br><span class="line">&gt;git remote add origin https://github.com/username/foldername</span><br><span class="line">&gt;git push -u origin master</span><br></pre></td></tr></table></figure>
+<h1 id="Clone-Project-from-Github"><a href="#Clone-Project-from-Github" class="headerlink" title="Clone Project from Github"></a>Clone Project from Github</h1><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">&gt;<span class="built_in">cd</span> desired-<span class="built_in">dir</span>-address </span><br><span class="line">&gt;git clone githubrespitory-http-address</span><br></pre></td></tr></table></figure>
+<h1 id="Branches"><a href="#Branches" class="headerlink" title="Branches"></a>Branches</h1><ol>
+<li>git status/branch -&gt; To check which branch you located.</li>
+<li><p>git branch -&gt; To create a new branch.</p>
+</li>
+<li><p>git checkout [branche-name]-&gt; Switch to ? branch.</p>
+</li>
+<li>git branch -d [branche-name] -&gt; Delete branch.</li>
+<li>git branch -m cat tiger-&gt; Modify branch name from cat to tiger</li>
+</ol>
+<h1 id="Check-where-respitory-you-locating"><a href="#Check-where-respitory-you-locating" class="headerlink" title="Check where respitory you locating"></a>Check where respitory you locating</h1><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">&gt;git remote -v</span><br></pre></td></tr></table></figure>
+<h1 id="Further-Detail"><a href="#Further-Detail" class="headerlink" title="Further Detail"></a>Further Detail</h1><p><a href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf" target="_blank" rel="noopener">Gihub cheatsheet</a></p>
 ]]></content>
   </entry>
   <entry>

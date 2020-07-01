@@ -6,7 +6,7 @@
   <link href="/jovis_Blog/atom.xml" rel="self"/>
   
   <link href="https://jovis9611.github.io/jovis_Blog/"/>
-  <updated>2020-06-29T16:39:02.115Z</updated>
+  <updated>2020-07-01T17:54:59.868Z</updated>
   <id>https://jovis9611.github.io/jovis_Blog/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Learnt from Hotel Demanding Note</title>
-    <link href="https://jovis9611.github.io/jovis_Blog/2020/06/28/hotel-demanding-ds/"/>
-    <id>https://jovis9611.github.io/jovis_Blog/2020/06/28/hotel-demanding-ds/</id>
-    <published>2020-06-28T06:50:47.000Z</published>
-    <updated>2020-06-29T16:39:02.115Z</updated>
+    <title>Build Your Blog in 10 Minutes using Hexo+Github</title>
+    <link href="https://jovis9611.github.io/jovis_Blog/2020/07/02/minutes-1/"/>
+    <id>https://jovis9611.github.io/jovis_Blog/2020/07/02/minutes-1/</id>
+    <published>2020-07-01T17:17:57.000Z</published>
+    <updated>2020-07-01T17:54:59.868Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+    
+      <category term="enhancement" scheme="https://jovis9611.github.io/jovis_Blog/categories/enhancement/"/>
+    
+    
+      <category term="web" scheme="https://jovis9611.github.io/jovis_Blog/tags/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Learn basic of github in 10 Minutes</title>
+    <link href="https://jovis9611.github.io/jovis_Blog/2020/07/01/minutes/"/>
+    <id>https://jovis9611.github.io/jovis_Blog/2020/07/01/minutes/</id>
+    <published>2020-07-01T03:55:37.000Z</published>
+    <updated>2020-07-01T06:33:15.323Z</updated>
     
     <summary type="html">
     
@@ -44,7 +71,7 @@
     <link href="https://jovis9611.github.io/jovis_Blog/2020/06/26/Intermediate/"/>
     <id>https://jovis9611.github.io/jovis_Blog/2020/06/26/Intermediate/</id>
     <published>2020-06-26T10:01:22.000Z</published>
-    <updated>2020-06-26T11:28:55.795Z</updated>
+    <updated>2020-07-01T17:55:32.631Z</updated>
     
     <summary type="html">
     
@@ -152,7 +179,7 @@
     <link href="https://jovis9611.github.io/jovis_Blog/2020/06/26/Embedded-Codepen-and-JsFiddle-in-Hexo/"/>
     <id>https://jovis9611.github.io/jovis_Blog/2020/06/26/Embedded-Codepen-and-JsFiddle-in-Hexo/</id>
     <published>2020-06-26T06:20:02.000Z</published>
-    <updated>2020-06-26T07:40:31.298Z</updated>
+    <updated>2020-07-01T17:55:42.343Z</updated>
     
     <summary type="html">
     
@@ -181,7 +208,7 @@
     <link href="https://jovis9611.github.io/jovis_Blog/2020/06/12/2020/v_tut_DEcommerce/"/>
     <id>https://jovis9611.github.io/jovis_Blog/2020/06/12/2020/v_tut_DEcommerce/</id>
     <published>2020-06-12T14:38:38.000Z</published>
-    <updated>2020-06-27T01:10:47.241Z</updated>
+    <updated>2020-07-01T17:56:06.027Z</updated>
     
     <summary type="html">
     
